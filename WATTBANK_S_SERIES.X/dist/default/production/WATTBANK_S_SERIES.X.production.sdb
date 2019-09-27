@@ -1,0 +1,2791 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F26K42 ]
+[d frameptr 4065 ]
+"114 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/adcc.c
+[e E18532 . `uc
+LOAD_CURRENT 2
+SOLAR_CURRENT 4
+BATTERY 5
+TEMP2 6
+OUTPUT_VOLTAGE 7
+TEMP1 16
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"89 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr2.c
+[e E18531 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR2_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR2_OS_STARTS_TMRON_ERSHIGH 22
+TMR2_OS_STARTS_TMRON_ERSLOW 23
+TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR2_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"95
+[e E18554 . `uc
+TMR2_T2INPPS 0
+TMR2_RESERVED 1
+TMR2_T4POSTSCALED 2
+TMR2_T6POSTSCALED 3
+TMR2_CCP1_OUT 4
+TMR2_CCP2_OUT 5
+TMR2_CCP3_OUT 6
+TMR2_CCP4_OUT 7
+TMR2_PWM5_OUT 8
+TMR2_PWM6_OUT 9
+TMR2_PWM7_OUT 10
+TMR2_PWM8_OUT 11
+TMR2_RESERVED_2 12
+TMR2_RESERVED_3 13
+TMR2_C1_OUT_SYNC 14
+TMR2_C2_OUT_SYNC 15
+TMR2_ZCD_OUTPUT 16
+TMR2_CLC1_OUT 17
+TMR2_CLC2_OUT 18
+TMR2_CLC3_OUT 19
+TMR2_CLC4_OUT 20
+TMR2_UART1_RX_EDGE 21
+TMR2_UART1_TX_EDGE 22
+TMR2_UART2_RX_EDGE 23
+TMR2_UART2_TX_EDGE 24
+]
+"120 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[e E18962 . `uc
+SYSTEM_OFF 0
+SYSTEM_ON 1
+CALIBRATION 2
+DIAGNOSTIC 3
+]
+"121
+[e E18975 . `uc
+SYSTEM_NOT_CHARGING 0
+SYSTEM_CHARGING 1
+]
+"122
+[e E18983 . `uc
+BAT_NORM 0
+LOW_BATTERY 1
+BATTERY_FULL 2
+]
+"123
+[e E18998 . `uc
+NORMAL_WARN 0
+OVERLOAD 1
+LOW_BATTERY_WARNING 2
+THERMAL_SHUTDOWN 3
+]
+"124
+[e E18993 . `uc
+NORMAL_ERROR 0
+PLUG_IN_NOT_CHARGING 1
+NO_OUTPUT_VOLTAGE 2
+]
+"125
+[e E18979 . `uc
+WATTBANK 0
+GRID_POWER 1
+]
+"126
+[e E18968 . `ui
+FAN_OFF 0
+FAN_25 190
+FAN_50 290
+FAN_75 390
+FAN_100 499
+]
+"128
+[e E19004 . `uc
+BMS_NORMAL 0
+SHORT_CIRCUIT 1
+OVER_TEMPERATURE 2
+OVER_CURRENT 3
+BMS_FAIL_ERROR 4
+]
+"129
+[e E18988 . `uc
+CHARGE_CONTROL_NORMAL 0
+CHARGE_CONTROL_THERMAL 1
+CHARGE_CONTROL_OVERCHARGED 2
+]
+"544
+[e E18686 . `uc
+LOAD_CURRENT 2
+SOLAR_CURRENT 4
+BATTERY 5
+TEMP2 6
+OUTPUT_VOLTAGE 7
+TEMP1 16
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+[v i2___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"409 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _fround fround `(d  1 s 3 fround ]
+"425
+[v _scale scale `(d  1 s 3 scale ]
+"492
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"60 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"60 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"13 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\lcd.c
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"35
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"44
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+"51
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"88
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"113
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"129
+[v _LCD_Send LCD_Send `(v  1 e 1 0 ]
+"157
+[v _LCD_CreateCharacter LCD_CreateCharacter `(v  1 e 1 0 ]
+"182
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"269 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"498
+[v _controlChargingStatus controlChargingStatus `(v  1 e 1 0 ]
+"512
+[v _chargeControl chargeControl `(v  1 e 1 0 ]
+"531
+[v _callibrateACS callibrateACS `(v  1 e 1 0 ]
+"551
+[v _gridCheck gridCheck `(v  1 e 1 0 ]
+"563
+[v _rainbowPowerUp rainbowPowerUp `(v  1 e 1 0 ]
+"575
+[v _check_charging check_charging `(v  1 e 1 0 ]
+"589
+[v _Send_GatewayDATA Send_GatewayDATA `(v  1 e 1 0 ]
+"595
+[v _measureDATA measureDATA `(v  1 e 1 0 ]
+"615
+[v _listen4data listen4data `(v  1 e 1 0 ]
+"643
+[v _timeleft timeleft `(v  1 e 1 0 ]
+"653
+[v _set_on_time set_on_time `(v  1 e 1 0 ]
+"677
+[v _fan_Control fan_Control `(v  1 e 1 0 ]
+"724
+[v _BMS_DATA BMS_DATA `(v  1 e 1 0 ]
+"822
+[v _systemControl systemControl `(v  1 e 1 0 ]
+"866
+[v _batteryBar batteryBar `(v  1 e 1 0 ]
+"896
+[v _updateBatteryBAR updateBatteryBAR `(v  1 e 1 0 ]
+"959
+[v _percentageUpdate percentageUpdate `(v  1 e 1 0 ]
+"979
+[v _print_float print_float `(*.39uc  1 e 2 0 ]
+"988
+[v _energyCalculation energyCalculation `(v  1 e 1 0 ]
+"994
+[v _convert2actualVal convert2actualVal `(v  1 e 1 0 ]
+"1035
+[v _animateLED animateLED `(v  1 e 1 0 ]
+"1052
+[v _takeAllSystemMeasurement takeAllSystemMeasurement `(v  1 e 1 0 ]
+"1072
+[v _takeSystemMeasurement takeSystemMeasurement `(ui  1 e 2 0 ]
+"1105
+[v _setONparameters setONparameters `(v  1 e 1 0 ]
+"1119
+[v _updateHomepage updateHomepage `(v  1 e 1 0 ]
+"1134
+[v _setGridMode setGridMode `(v  1 e 1 0 ]
+"1148
+[v _shutDOWN shutDOWN `(v  1 e 1 0 ]
+"1165
+[v _ResetAllParameters ResetAllParameters `(v  1 e 1 0 ]
+"1208
+[v _warningCheck warningCheck `(v  1 s 1 warningCheck ]
+"1227
+[v _ButtonScan ButtonScan `(v  1 e 1 0 ]
+"1299
+[v _welcomePage welcomePage `(v  1 e 1 0 ]
+"1319
+[v _clearUART_buffer clearUART_buffer `(v  1 e 1 0 ]
+"1345
+[v _homePage2 homePage2 `(v  1 e 1 0 ]
+"1377
+[v _homePage1 homePage1 `(v  1 e 1 0 ]
+"1405
+[v _WS2812_writeColour WS2812_writeColour `(v  1 e 1 0 ]
+"1420
+[v _WS2812_writeRGB WS2812_writeRGB `(v  1 e 1 0 ]
+"1429
+[v _defaultHomePage defaultHomePage `(v  1 e 1 0 ]
+"1457
+[v _BMSerrorPage BMSerrorPage `(v  1 e 1 0 ]
+"1493
+[v _errorPage errorPage `(v  1 e 1 0 ]
+"1520
+[v _warningPage warningPage `(v  1 e 1 0 ]
+"1571
+[v _charging_status charging_status `(v  1 e 1 0 ]
+"1584
+[v _offChargingPage offChargingPage `(v  1 e 1 0 ]
+"1609
+[v _gridPage gridPage `(v  1 e 1 0 ]
+"1621
+[v _BMS_CALIBRATION_PAGE BMS_CALIBRATION_PAGE `(v  1 e 1 0 ]
+"1642
+[v _LCD_initialization LCD_initialization `(v  1 e 1 0 ]
+"1650
+[v _CreateCustomCharacters CreateCustomCharacters `(v  1 e 1 0 ]
+"1663
+[v _welcomeDiagnostic welcomeDiagnostic `(v  1 e 1 0 ]
+"1681
+[v _printData printData `(*.39uc  1 e 2 0 ]
+"1687
+[v _printlong printlong `(*.39uc  1 e 2 0 ]
+"1694
+[v _printByte printByte `(*.39uc  1 e 2 0 ]
+"1701
+[v _diagnosticPage2 diagnosticPage2 `(v  1 e 1 0 ]
+"1726
+[v _diagnosticPage1 diagnosticPage1 `(v  1 e 1 0 ]
+"1760
+[v _DIAGNOSTIC_DATA DIAGNOSTIC_DATA `(v  1 e 1 0 ]
+"1806
+[v _setDiagnosticMode setDiagnosticMode `(v  1 e 1 0 ]
+"62 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"113
+[v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
+"125
+[v _ADCC_IsConversionDone ADCC_IsConversionDone `(uc  1 e 1 0 ]
+"131
+[v _ADCC_GetConversionResult ADCC_GetConversionResult `(ui  1 e 2 0 ]
+"58 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"68
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"82
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"103
+[v _WWDT_Initialize WWDT_Initialize `(v  1 e 1 0 ]
+"111
+[v _WWDT_SoftEnable WWDT_SoftEnable `(v  1 e 1 0 ]
+"117
+[v _WWDT_SoftDisable WWDT_SoftDisable `(v  1 e 1 0 ]
+"55 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"64 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+"82
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+"64 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+"82
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+"74 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"142
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"165
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+"200
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"204
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"64 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"99
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"105
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+"127
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"164
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"183
+[v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
+"193
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"197
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"62 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"111
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR2_Counter8BitGet TMR2_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
+"86 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+"160
+[v _UART1_is_rx_ready UART1_is_rx_ready `(uc  1 e 1 0 ]
+"179
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+"202
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+"240
+[v _UART1_Transmit_ISR UART1_Transmit_ISR `(v  1 e 1 0 ]
+"260
+[v _UART1_Receive_ISR UART1_Receive_ISR `(v  1 e 1 0 ]
+"284
+[v _UART1_RxDataHandler UART1_RxDataHandler `(v  1 e 1 0 ]
+"294
+[v _UART1_DefaultFramingErrorHandler UART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"296
+[v _UART1_DefaultOverrunErrorHandler UART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"298
+[v _UART1_DefaultErrorHandler UART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"302
+[v _UART1_SetFramingErrorHandler UART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"306
+[v _UART1_SetOverrunErrorHandler UART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"310
+[v _UART1_SetErrorHandler UART1_SetErrorHandler `(v  1 e 1 0 ]
+"316
+[v _UART1_SetRxInterruptHandler UART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+"320
+[v _UART1_SetTxInterruptHandler UART1_SetTxInterruptHandler `(v  1 e 1 0 ]
+"89 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart2.c
+[v _UART2_Initialize UART2_Initialize `(v  1 e 1 0 ]
+"154
+[v _UART2_is_rx_ready UART2_is_rx_ready `(uc  1 e 1 0 ]
+"173
+[v _UART2_Read UART2_Read `(uc  1 e 1 0 ]
+"195
+[v _UART2_Send_words UART2_Send_words `(v  1 e 1 0 ]
+"203
+[v _UART2_Write UART2_Write `(v  1 e 1 0 ]
+"231
+[v _UART2_Transmit_ISR UART2_Transmit_ISR `(v  1 e 1 0 ]
+"251
+[v _UART2_Receive_ISR UART2_Receive_ISR `(v  1 e 1 0 ]
+"275
+[v _UART2_RxDataHandler UART2_RxDataHandler `(v  1 e 1 0 ]
+"285
+[v _UART2_DefaultFramingErrorHandler UART2_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"287
+[v _UART2_DefaultOverrunErrorHandler UART2_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"289
+[v _UART2_DefaultErrorHandler UART2_DefaultErrorHandler `(v  1 e 1 0 ]
+"293
+[v _UART2_SetFramingErrorHandler UART2_SetFramingErrorHandler `(v  1 e 1 0 ]
+"297
+[v _UART2_SetOverrunErrorHandler UART2_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"301
+[v _UART2_SetErrorHandler UART2_SetErrorHandler `(v  1 e 1 0 ]
+"307
+[v _UART2_SetRxInterruptHandler UART2_SetRxInterruptHandler `(v  1 e 1 0 ]
+"311
+[v _UART2_SetTxInterruptHandler UART2_SetTxInterruptHandler `(v  1 e 1 0 ]
+"24 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\WS2812.c
+[v _WS2812_Write WS2812_Write `(v  1 e 1 0 ]
+"786 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f26k42.h
+[v _WDTCON0 WDTCON0 `VEuc  1 e 1 @14683 ]
+[s S979 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 WDTPS 1 0 :5:1 
+]
+"811
+[s S982 . 1 `uc 1 SWDTEN 1 0 :1:0 
+]
+[s S984 . 1 `uc 1 WDTSEN 1 0 :1:0 
+]
+[s S986 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WDTPS0 1 0 :1:1 
+`uc 1 WDTPS1 1 0 :1:2 
+`uc 1 WDTPS2 1 0 :1:3 
+`uc 1 WDTPS3 1 0 :1:4 
+`uc 1 WDTPS4 1 0 :1:5 
+]
+[u S993 . 1 `S979 1 . 1 0 `S982 1 . 1 0 `S984 1 . 1 0 `S986 1 . 1 0 ]
+[v _WDTCON0bits WDTCON0bits `VES993  1 e 1 @14683 ]
+"861
+[v _WDTCON1 WDTCON1 `VEuc  1 e 1 @14684 ]
+[s S497 . 1 `uc 1 I2C1TXIE 1 0 :1:0 
+`uc 1 I2C1IE 1 0 :1:1 
+`uc 1 I2C1EIE 1 0 :1:2 
+`uc 1 U1RXIE 1 0 :1:3 
+`uc 1 U1TXIE 1 0 :1:4 
+`uc 1 U1EIE 1 0 :1:5 
+`uc 1 U1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"3666
+[s S506 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S512 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S517 . 1 `S497 1 . 1 0 `S506 1 . 1 0 `S512 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES517  1 e 1 @14739 ]
+[s S578 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR1GIE 1 0 :1:1 
+`uc 1 TMR2IE 1 0 :1:2 
+`uc 1 CCP1IE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 NCO1IE 1 0 :1:5 
+`uc 1 CWG1IE 1 0 :1:6 
+`uc 1 CLC1IE 1 0 :1:7 
+]
+"3763
+[u S587 . 1 `S578 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES587  1 e 1 @14740 ]
+[s S455 . 1 `uc 1 I2C2IE 1 0 :1:0 
+`uc 1 I2C2EIE 1 0 :1:1 
+`uc 1 U2RXIE 1 0 :1:2 
+`uc 1 U2TXIE 1 0 :1:3 
+`uc 1 U2EIE 1 0 :1:4 
+`uc 1 U2IE 1 0 :1:5 
+`uc 1 TMR3IE 1 0 :1:6 
+`uc 1 TMR3GIE 1 0 :1:7 
+]
+"3882
+[u S464 . 1 `S455 1 . 1 0 ]
+[v _PIE6bits PIE6bits `VES464  1 e 1 @14742 ]
+[s S542 . 1 `uc 1 I2C1TXIF 1 0 :1:0 
+`uc 1 I2C1IF 1 0 :1:1 
+`uc 1 I2C1EIF 1 0 :1:2 
+`uc 1 U1RXIF 1 0 :1:3 
+`uc 1 U1TXIF 1 0 :1:4 
+`uc 1 U1EIF 1 0 :1:5 
+`uc 1 U1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"4312
+[s S551 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S556 . 1 `S542 1 . 1 0 `S551 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES556  1 e 1 @14755 ]
+[s S599 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR1GIF 1 0 :1:1 
+`uc 1 TMR2IF 1 0 :1:2 
+`uc 1 CCP1IF 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 NCO1IF 1 0 :1:5 
+`uc 1 CWG1IF 1 0 :1:6 
+`uc 1 CLC1IF 1 0 :1:7 
+]
+"4384
+[u S608 . 1 `S599 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES608  1 e 1 @14756 ]
+[s S476 . 1 `uc 1 I2C2IF 1 0 :1:0 
+`uc 1 I2C2EIF 1 0 :1:1 
+`uc 1 U2RXIF 1 0 :1:2 
+`uc 1 U2TXIF 1 0 :1:3 
+`uc 1 U2EIF 1 0 :1:4 
+`uc 1 U2IF 1 0 :1:5 
+`uc 1 TMR3IF 1 0 :1:6 
+`uc 1 TMR3GIF 1 0 :1:7 
+]
+"4503
+[u S485 . 1 `S476 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES485  1 e 1 @14758 ]
+"4684
+[v _PMD0 PMD0 `VEuc  1 e 1 @14784 ]
+"4761
+[v _PMD1 PMD1 `VEuc  1 e 1 @14785 ]
+"4831
+[v _PMD2 PMD2 `VEuc  1 e 1 @14786 ]
+"4876
+[v _PMD3 PMD3 `VEuc  1 e 1 @14787 ]
+"4938
+[v _PMD4 PMD4 `VEuc  1 e 1 @14788 ]
+"4971
+[v _PMD5 PMD5 `VEuc  1 e 1 @14789 ]
+"5016
+[v _PMD6 PMD6 `VEuc  1 e 1 @14790 ]
+"5066
+[v _PMD7 PMD7 `VEuc  1 e 1 @14791 ]
+"5205
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"5345
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"5497
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"5548
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"5652
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"7130
+[v _RB6PPS RB6PPS `VEuc  1 e 1 @14862 ]
+"7262
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @14865 ]
+"7394
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @14868 ]
+"7482
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @14870 ]
+"7570
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"7632
+[v _WPUA WPUA `VEuc  1 e 1 @14913 ]
+"7694
+[v _ODCONA ODCONA `VEuc  1 e 1 @14914 ]
+"7756
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @14915 ]
+"8190
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+"8252
+[v _WPUB WPUB `VEuc  1 e 1 @14929 ]
+"8314
+[v _ODCONB ODCONB `VEuc  1 e 1 @14930 ]
+"8376
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @14931 ]
+"8810
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @14938 ]
+"8918
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @14939 ]
+"9026
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"9088
+[v _WPUC WPUC `VEuc  1 e 1 @14945 ]
+"9150
+[v _ODCONC ODCONC `VEuc  1 e 1 @14946 ]
+"9212
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @14947 ]
+"9646
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @14954 ]
+"9754
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @14955 ]
+"9862
+[v _WPUE WPUE `VEuc  1 e 1 @14977 ]
+"10783
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @15077 ]
+"10823
+[v _U2RXPPS U2RXPPS `VEuc  1 e 1 @15080 ]
+"24276
+[v _U2RXB U2RXB `VEuc  1 e 1 @15824 ]
+"24314
+[v _U2TXB U2TXB `VEuc  1 e 1 @15826 ]
+"24359
+[v _U2P1L U2P1L `VEuc  1 e 1 @15828 ]
+"24386
+[v _U2P2L U2P2L `VEuc  1 e 1 @15830 ]
+"24413
+[v _U2P3L U2P3L `VEuc  1 e 1 @15832 ]
+"24433
+[v _U2CON0 U2CON0 `VEuc  1 e 1 @15834 ]
+"24549
+[v _U2CON1 U2CON1 `VEuc  1 e 1 @15835 ]
+"24629
+[v _U2CON2 U2CON2 `VEuc  1 e 1 @15836 ]
+"24768
+[v _U2BRGL U2BRGL `VEuc  1 e 1 @15837 ]
+"24788
+[v _U2BRGH U2BRGH `VEuc  1 e 1 @15838 ]
+"24808
+[v _U2FIFO U2FIFO `VEuc  1 e 1 @15839 ]
+"24938
+[v _U2UIR U2UIR `VEuc  1 e 1 @15840 ]
+"24994
+[v _U2ERRIR U2ERRIR `VEuc  1 e 1 @15841 ]
+[s S796 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"25021
+[s S1865 . 1 `uc 1 U2TXCIF 1 0 :1:0 
+`uc 1 U2RXFOIF 1 0 :1:1 
+`uc 1 U2RXBKIF 1 0 :1:2 
+`uc 1 U2FERIF 1 0 :1:3 
+`uc 1 U2CERIF 1 0 :1:4 
+`uc 1 U2ABDOVF 1 0 :1:5 
+`uc 1 U2PERIF 1 0 :1:6 
+`uc 1 U2TXMTIF 1 0 :1:7 
+]
+[u S1874 . 1 `S796 1 . 1 0 `S1865 1 . 1 0 ]
+[v _U2ERRIRbits U2ERRIRbits `VES1874  1 e 1 @15841 ]
+"25106
+[v _U2ERRIE U2ERRIE `VEuc  1 e 1 @15842 ]
+"25218
+[v _U1RXB U1RXB `VEuc  1 e 1 @15848 ]
+"25276
+[v _U1TXB U1TXB `VEuc  1 e 1 @15850 ]
+"25341
+[v _U1P1L U1P1L `VEuc  1 e 1 @15852 ]
+"25361
+[v _U1P1H U1P1H `VEuc  1 e 1 @15853 ]
+"25388
+[v _U1P2L U1P2L `VEuc  1 e 1 @15854 ]
+"25408
+[v _U1P2H U1P2H `VEuc  1 e 1 @15855 ]
+"25435
+[v _U1P3L U1P3L `VEuc  1 e 1 @15856 ]
+"25455
+[v _U1P3H U1P3H `VEuc  1 e 1 @15857 ]
+"25475
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @15858 ]
+"25591
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @15859 ]
+"25671
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @15860 ]
+"25820
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @15861 ]
+"25840
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @15862 ]
+"25860
+[v _U1FIFO U1FIFO `VEuc  1 e 1 @15863 ]
+"25990
+[v _U1UIR U1UIR `VEuc  1 e 1 @15864 ]
+"26046
+[v _U1ERRIR U1ERRIR `VEuc  1 e 1 @15865 ]
+"26073
+[s S805 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+[u S814 . 1 `S796 1 . 1 0 `S805 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES814  1 e 1 @15865 ]
+"26158
+[v _U1ERRIE U1ERRIE `VEuc  1 e 1 @15866 ]
+"26937
+[v _FVRCON FVRCON `VEuc  1 e 1 @16065 ]
+[s S1639 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 RDY 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"26961
+[s S1646 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+[u S1654 . 1 `S1639 1 . 1 0 `S1646 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES1654  1 e 1 @16065 ]
+"27316
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @16094 ]
+"27444
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @16095 ]
+"27579
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @16096 ]
+"27707
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @16097 ]
+"27842
+[v _ADERRL ADERRL `VEuc  1 e 1 @16098 ]
+"27970
+[v _ADERRH ADERRH `VEuc  1 e 1 @16099 ]
+"28105
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @16100 ]
+"28233
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @16101 ]
+"28368
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @16102 ]
+"28496
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @16103 ]
+"28633
+[v _ADACCL ADACCL `VEuc  1 e 1 @16104 ]
+"28761
+[v _ADACCH ADACCH `VEuc  1 e 1 @16105 ]
+"28889
+[v _ADACCU ADACCU `VEuc  1 e 1 @16106 ]
+"29017
+[v _ADCNT ADCNT `VEuc  1 e 1 @16107 ]
+"29145
+[v _ADRPT ADRPT `VEuc  1 e 1 @16108 ]
+"29280
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @16109 ]
+"29408
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @16110 ]
+"29543
+[v _ADRESL ADRESL `VEuc  1 e 1 @16111 ]
+"29671
+[v _ADRESH ADRESH `VEuc  1 e 1 @16112 ]
+"29791
+[v _ADPCH ADPCH `VEuc  1 e 1 @16113 ]
+"29856
+[v _ADACQL ADACQL `VEuc  1 e 1 @16115 ]
+"29984
+[v _ADACQH ADACQH `VEuc  1 e 1 @16116 ]
+"30076
+[v _ADCAP ADCAP `VEuc  1 e 1 @16117 ]
+"30135
+[v _ADPREL ADPREL `VEuc  1 e 1 @16118 ]
+"30263
+[v _ADPREH ADPREH `VEuc  1 e 1 @16119 ]
+"30355
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @16120 ]
+[s S55 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"30397
+[s S63 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S71 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+]
+[s S75 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S77 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[s S81 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S84 . 1 `S55 1 . 1 0 `S63 1 . 1 0 `S71 1 . 1 0 `S75 1 . 1 0 `S77 1 . 1 0 `S81 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES84  1 e 1 @16120 ]
+"30482
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @16121 ]
+[s S317 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"30507
+[s S323 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+[s S329 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S332 . 1 `S317 1 . 1 0 `S323 1 . 1 0 `S329 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES332  1 e 1 @16121 ]
+"30557
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @16122 ]
+[s S178 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"30605
+[s S183 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+[s S192 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+[s S196 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+[s S204 . 1 `uc 1 MD 1 0 :3:0 
+]
+[s S206 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+]
+[s S210 . 1 `uc 1 ADMODE 1 0 :3:0 
+]
+[u S212 . 1 `S178 1 . 1 0 `S183 1 . 1 0 `S192 1 . 1 0 `S196 1 . 1 0 `S204 1 . 1 0 `S206 1 . 1 0 `S210 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES212  1 e 1 @16122 ]
+"30735
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @16123 ]
+[s S123 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"30770
+[s S127 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[s S135 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[s S139 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+[u S147 . 1 `S123 1 . 1 0 `S127 1 . 1 0 `S135 1 . 1 0 `S139 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES147  1 e 1 @16123 ]
+"30865
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @16124 ]
+[s S257 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 OV 1 0 :1:7 
+]
+"30900
+[s S264 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+[s S273 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+[s S277 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+]
+[u S281 . 1 `S257 1 . 1 0 `S264 1 . 1 0 `S273 1 . 1 0 `S277 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES281  1 e 1 @16124 ]
+"30990
+[v _ADREF ADREF `VEuc  1 e 1 @16125 ]
+"31072
+[v _ADACT ADACT `VEuc  1 e 1 @16126 ]
+"31164
+[v _ADCLK ADCLK `VEuc  1 e 1 @16127 ]
+[s S1284 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 C3TSEL 1 0 :2:4 
+`uc 1 C4TSEL 1 0 :2:6 
+]
+"36723
+[s S1289 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 C3TSEL0 1 0 :1:4 
+`uc 1 C3TSEL1 1 0 :1:5 
+`uc 1 C4TSEL0 1 0 :1:6 
+`uc 1 C4TSEL1 1 0 :1:7 
+]
+"36723
+[u S1298 . 1 `S1284 1 . 1 0 `S1289 1 . 1 0 ]
+"36723
+"36723
+[v _CCPTMRS0bits CCPTMRS0bits `VES1298  1 e 1 @16222 ]
+"38535
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @16248 ]
+"38555
+[v _CCPR2H CCPR2H `VEuc  1 e 1 @16249 ]
+"38575
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @16250 ]
+[s S1316 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 FMT 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"38612
+[s S1322 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"38612
+[s S1714 . 1 `uc 1 CCP2MODE 1 0 :4:0 
+`uc 1 CCP2FMT 1 0 :1:4 
+`uc 1 CCP2OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP2EN 1 0 :1:7 
+]
+"38612
+[s S1720 . 1 `uc 1 CCP2MODE0 1 0 :1:0 
+`uc 1 CCP2MODE1 1 0 :1:1 
+`uc 1 CCP2MODE2 1 0 :1:2 
+`uc 1 CCP2MODE3 1 0 :1:3 
+]
+"38612
+[s S1725 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 P2M1 1 0 :1:7 
+]
+"38612
+[u S1728 . 1 `S1316 1 . 1 0 `S1322 1 . 1 0 `S1714 1 . 1 0 `S1720 1 . 1 0 `S1725 1 . 1 0 ]
+"38612
+"38612
+[v _CCP2CONbits CCP2CONbits `VES1728  1 e 1 @16250 ]
+"38777
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @16252 ]
+"38797
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @16253 ]
+"38817
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @16254 ]
+"38854
+"38854
+[s S1327 . 1 `uc 1 CCP1MODE 1 0 :4:0 
+`uc 1 CCP1FMT 1 0 :1:4 
+`uc 1 CCP1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP1EN 1 0 :1:7 
+]
+"38854
+[s S1333 . 1 `uc 1 CCP1MODE0 1 0 :1:0 
+`uc 1 CCP1MODE1 1 0 :1:1 
+`uc 1 CCP1MODE2 1 0 :1:2 
+`uc 1 CCP1MODE3 1 0 :1:3 
+]
+"38854
+[s S1338 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 P1M1 1 0 :1:7 
+]
+"38854
+[u S1341 . 1 `S1316 1 . 1 0 `S1322 1 . 1 0 `S1327 1 . 1 0 `S1333 1 . 1 0 `S1338 1 . 1 0 ]
+"38854
+"38854
+[v _CCP1CONbits CCP1CONbits `VES1341  1 e 1 @16254 ]
+"41964
+[v _T2TMR T2TMR `VEuc  1 e 1 @16298 ]
+"41969
+[v _TMR2 TMR2 `VEuc  1 e 1 @16298 ]
+"42002
+[v _T2PR T2PR `VEuc  1 e 1 @16299 ]
+"42007
+[v _PR2 PR2 `VEuc  1 e 1 @16299 ]
+"42040
+[v _T2CON T2CON `VEuc  1 e 1 @16300 ]
+[s S1540 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"42076
+[s S1544 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+"42076
+[s S1548 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+]
+"42076
+[s S1556 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+"42076
+[u S1565 . 1 `S1540 1 . 1 0 `S1544 1 . 1 0 `S1548 1 . 1 0 `S1556 1 . 1 0 ]
+"42076
+"42076
+[v _T2CONbits T2CONbits `VES1565  1 e 1 @16300 ]
+"42186
+[v _T2HLT T2HLT `VEuc  1 e 1 @16301 ]
+[s S1426 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"42219
+[s S1431 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+"42219
+[s S1437 . 1 `uc 1 T2MODE 1 0 :5:0 
+`uc 1 T2CKSYNC 1 0 :1:5 
+`uc 1 T2CKPOL 1 0 :1:6 
+`uc 1 T2PSYNC 1 0 :1:7 
+]
+"42219
+[s S1442 . 1 `uc 1 T2MODE0 1 0 :1:0 
+`uc 1 T2MODE1 1 0 :1:1 
+`uc 1 T2MODE2 1 0 :1:2 
+`uc 1 T2MODE3 1 0 :1:3 
+`uc 1 T2MODE4 1 0 :1:4 
+]
+"42219
+[u S1448 . 1 `S1426 1 . 1 0 `S1431 1 . 1 0 `S1437 1 . 1 0 `S1442 1 . 1 0 ]
+"42219
+"42219
+[v _T2HLTbits T2HLTbits `VES1448  1 e 1 @16301 ]
+"42314
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @16302 ]
+"42472
+[v _T2RST T2RST `VEuc  1 e 1 @16303 ]
+[s S1502 . 1 `uc 1 RSEL 1 0 :5:0 
+]
+"42499
+[s S1504 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+`uc 1 RSEL4 1 0 :1:4 
+]
+"42499
+[s S1510 . 1 `uc 1 T2RSEL 1 0 :5:0 
+]
+"42499
+[s S1512 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+`uc 1 T2RSEL1 1 0 :1:1 
+`uc 1 T2RSEL2 1 0 :1:2 
+`uc 1 T2RSEL3 1 0 :1:3 
+`uc 1 T2RSEL4 1 0 :1:4 
+]
+"42499
+[u S1518 . 1 `S1502 1 . 1 0 `S1504 1 . 1 0 `S1510 1 . 1 0 `S1512 1 . 1 0 ]
+"42499
+"42499
+[v _T2RSTbits T2RSTbits `VES1518  1 e 1 @16303 ]
+"42564
+[v _TMR1L TMR1L `VEuc  1 e 1 @16304 ]
+"42634
+[v _TMR1H TMR1H `VEuc  1 e 1 @16305 ]
+"42704
+[v _T1CON T1CON `VEuc  1 e 1 @16306 ]
+[s S3160 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 NOT_SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"42740
+[s S3166 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+"42740
+[s S3173 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+"42740
+[s S3177 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+"42740
+[u S3180 . 1 `S3160 1 . 1 0 `S3166 1 . 1 0 `S3173 1 . 1 0 `S3177 1 . 1 0 ]
+"42740
+"42740
+[v _T1CONbits T1CONbits `VES3180  1 e 1 @16306 ]
+"42894
+[v _T1GCON T1GCON `VEuc  1 e 1 @16307 ]
+[s S3206 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GVAL 1 0 :1:2 
+`uc 1 GGO 1 0 :1:3 
+`uc 1 GSPM 1 0 :1:4 
+`uc 1 GTM 1 0 :1:5 
+`uc 1 GPOL 1 0 :1:6 
+`uc 1 GE 1 0 :1:7 
+]
+"42932
+[s S3214 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 T1GE 1 0 :1:7 
+]
+"42932
+[s S3222 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_DONE 1 0 :1:3 
+]
+"42932
+[s S3225 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_T1DONE 1 0 :1:3 
+]
+"42932
+[u S3228 . 1 `S3206 1 . 1 0 `S3214 1 . 1 0 `S3222 1 . 1 0 `S3225 1 . 1 0 ]
+"42932
+"42932
+[v _T1GCONbits T1GCONbits `VES3228  1 e 1 @16307 ]
+"43108
+[v _T1GATE T1GATE `VEuc  1 e 1 @16308 ]
+"43274
+[v _T1CLK T1CLK `VEuc  1 e 1 @16309 ]
+"43440
+[v _TMR0L TMR0L `VEuc  1 e 1 @16310 ]
+"43578
+[v _TMR0H TMR0H `VEuc  1 e 1 @16311 ]
+"43832
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @16312 ]
+[s S1207 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"43860
+[s S1213 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"43860
+[s S1219 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+"43860
+[u S1225 . 1 `S1207 1 . 1 0 `S1213 1 . 1 0 `S1219 1 . 1 0 ]
+"43860
+"43860
+[v _T0CON0bits T0CON0bits `VES1225  1 e 1 @16312 ]
+"43930
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @16313 ]
+"44072
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+[s S2058 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"44099
+[s S2067 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+"44099
+[u S2076 . 1 `S2058 1 . 1 0 `S2067 1 . 1 0 ]
+"44099
+"44099
+[v _LATAbits LATAbits `VES2076  1 e 1 @16314 ]
+"44184
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+[s S3011 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"44211
+[s S3020 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+"44211
+[u S3029 . 1 `S3011 1 . 1 0 `S3020 1 . 1 0 ]
+"44211
+"44211
+[v _LATBbits LATBbits `VES3029  1 e 1 @16315 ]
+"44296
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+[s S2472 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"44323
+[s S2481 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+"44323
+[u S2490 . 1 `S2472 1 . 1 0 `S2481 1 . 1 0 ]
+"44323
+"44323
+[v _LATCbits LATCbits `VES2490  1 e 1 @16316 ]
+"44408
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"44470
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+"44532
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+[s S2237 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"44618
+[s S2246 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 LVDIN 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 RJPU 1 0 :1:7 
+]
+"44618
+[u S2252 . 1 `S2237 1 . 1 0 `S2246 1 . 1 0 ]
+"44618
+"44618
+[v _PORTAbits PORTAbits `VES2252  1 e 1 @16330 ]
+[s S2546 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"44775
+[s S2555 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+"44775
+[s S2559 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+"44775
+[u S2562 . 1 `S2546 1 . 1 0 `S2555 1 . 1 0 `S2559 1 . 1 0 ]
+"44775
+"44775
+[v _PORTCbits PORTCbits `VES2562  1 e 1 @16332 ]
+[s S429 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"44894
+[s S437 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"44894
+[u S440 . 1 `S429 1 . 1 0 `S437 1 . 1 0 ]
+"44894
+"44894
+[v _INTCON0bits INTCON0bits `VES440  1 e 1 @16338 ]
+[s S1013 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"45830
+[s S1015 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+"45830
+[s S1018 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_RI 1 0 :1:2 
+]
+"45830
+[s S1021 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_RMCLR 1 0 :1:3 
+]
+"45830
+[s S1024 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RWDT 1 0 :1:4 
+]
+"45830
+[s S1027 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_WDTWV 1 0 :1:5 
+]
+"45830
+[s S1030 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nRI 1 0 :1:2 
+`uc 1 nRMCLR 1 0 :1:3 
+`uc 1 nRWDT 1 0 :1:4 
+`uc 1 nWDTWV 1 0 :1:5 
+`uc 1 STKUNF 1 0 :1:6 
+`uc 1 STKOVF 1 0 :1:7 
+]
+"45830
+[s S1039 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 RI 1 0 :1:2 
+`uc 1 RMCLR 1 0 :1:3 
+`uc 1 RWDT 1 0 :1:4 
+`uc 1 WDTWV 1 0 :1:5 
+]
+"45830
+[u S1046 . 1 `S1013 1 . 1 0 `S1015 1 . 1 0 `S1018 1 . 1 0 `S1021 1 . 1 0 `S1024 1 . 1 0 `S1027 1 . 1 0 `S1030 1 . 1 0 `S1039 1 . 1 0 ]
+"45830
+"45830
+[v _PCON0bits PCON0bits `VES1046  1 e 1 @16368 ]
+"49003
+[v _GIE GIE `VEb  1 e 0 @130711 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _dpowers dpowers `C[10]ul  1 s 40 dpowers ]
+"7 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\powers.c
+[v __powers_ _powers_ `C[13]d  1 e 39 0 ]
+"39
+[v __npowers_ _npowers_ `C[13]d  1 e 39 0 ]
+"79 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\characters.h
+[v _photizzo_logo photizzo_logo `C[8]uc  1 e 8 0 ]
+"90
+[v _battery_empty battery_empty `C[8]uc  1 e 8 0 ]
+"100
+[v _battery_25 battery_25 `C[8]uc  1 e 8 0 ]
+"110
+[v _battery_50 battery_50 `C[8]uc  1 e 8 0 ]
+"120
+[v _battery_75 battery_75 `C[8]uc  1 e 8 0 ]
+"130
+[v _battery_100 battery_100 `C[8]uc  1 e 8 0 ]
+"140
+[v _char_plug char_plug `C[8]uc  1 e 8 0 ]
+"158
+[v _solar_house solar_house `C[8]uc  1 e 8 0 ]
+"168
+[v _grid_char grid_char `C[8]uc  1 e 8 0 ]
+"178
+[v _warning_sign warning_sign `C[8]uc  1 e 8 0 ]
+"188
+[v _char_time char_time `C[8]uc  1 e 8 0 ]
+"120 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _system_mode system_mode `E18962  1 e 1 0 ]
+"121
+[v _system_subMode system_subMode `E18975  1 e 1 0 ]
+"122
+[v _batterystatus batterystatus `E18983  1 e 1 0 ]
+"123
+[v _warningstatus warningstatus `E18998  1 e 1 0 ]
+"124
+[v _errorstatus errorstatus `E18993  1 e 1 0 ]
+"125
+[v _power_source power_source `E18979  1 e 1 0 ]
+"126
+[v _fan_mode fan_mode `E18968  1 e 2 0 ]
+[s S2009 . 1 `uc 1 bit0 1 0 :1:0 
+`uc 1 bit1 1 0 :1:1 
+`uc 1 bit2 1 0 :1:2 
+`uc 1 bit3 1 0 :1:3 
+`uc 1 bit4 1 0 :1:4 
+`uc 1 bit5 1 0 :1:5 
+`uc 1 bit6 1 0 :1:6 
+`uc 1 bit7 1 0 :1:7 
+]
+"127
+[u S2018 . 1 `uc 1 byte_data 1 0 `S2009 1 bit_data 1 0 ]
+[v _bms_status bms_status `S2018  1 e 1 0 ]
+"128
+[v _bms_error_status bms_error_status `E19004  1 e 1 0 ]
+"129
+[v _charging_control_status charging_control_status `E18988  1 e 1 0 ]
+"133
+[v _blue blue `[3]uc  1 e 3 0 ]
+"135
+[v _red red `[3]uc  1 e 3 0 ]
+"136
+[v _off off `[3]uc  1 e 3 0 ]
+"137
+[v _orange orange `[3]uc  1 e 3 0 ]
+"138
+[v _r r `uc  1 e 1 0 ]
+[v _g g `uc  1 e 1 0 ]
+[v _b b `uc  1 e 1 0 ]
+"140
+[v _cell0 cell0 `ui  1 e 2 0 ]
+[v _cell0PTR cell0PTR `*.39uc  1 e 2 0 ]
+"141
+[v _cell1 cell1 `ui  1 e 2 0 ]
+[v _cell1PTR cell1PTR `*.39uc  1 e 2 0 ]
+"142
+[v _cell2 cell2 `ui  1 e 2 0 ]
+[v _cell2PTR cell2PTR `*.39uc  1 e 2 0 ]
+"143
+[v _cell3 cell3 `ui  1 e 2 0 ]
+[v _cell3PTR cell3PTR `*.39uc  1 e 2 0 ]
+"144
+[v _cell4 cell4 `ui  1 e 2 0 ]
+[v _cell4PTR cell4PTR `*.39uc  1 e 2 0 ]
+"145
+[v _cell5 cell5 `ui  1 e 2 0 ]
+[v _cell5PTR cell5PTR `*.39uc  1 e 2 0 ]
+"146
+[v _cell6 cell6 `ui  1 e 2 0 ]
+[v _cell6PTR cell6PTR `*.39uc  1 e 2 0 ]
+"147
+[v _cell7 cell7 `ui  1 e 2 0 ]
+[v _cell7PTR cell7PTR `*.39uc  1 e 2 0 ]
+"148
+[v _cell8 cell8 `ui  1 e 2 0 ]
+[v _cell8PTR cell8PTR `*.39uc  1 e 2 0 ]
+"149
+[v _cell9 cell9 `ui  1 e 2 0 ]
+[v _cell9PTR cell9PTR `*.39uc  1 e 2 0 ]
+"150
+[v _cell10 cell10 `ui  1 e 2 0 ]
+[v _cell10PTR cell10PTR `*.39uc  1 e 2 0 ]
+"151
+[v _cell11 cell11 `ui  1 e 2 0 ]
+[v _cell11PTR cell11PTR `*.39uc  1 e 2 0 ]
+"152
+[v _batteryTemperature1 batteryTemperature1 `ui  1 e 2 0 ]
+[v _batteryTemperature1PTR batteryTemperature1PTR `*.39uc  1 e 2 0 ]
+"153
+[v _batteryTemperature2 batteryTemperature2 `ui  1 e 2 0 ]
+[v _batteryTemperature2PTR batteryTemperature2PTR `*.39uc  1 e 2 0 ]
+"154
+[v _ACS_offset ACS_offset `ui  1 e 2 0 ]
+[v _ACS_offsetPTR ACS_offsetPTR `*.39uc  1 e 2 0 ]
+"155
+[v _columbReference columbReference `ul  1 e 4 0 ]
+[v _columbReferencePTR columbReferencePTR `*.39uc  1 e 2 0 ]
+"156
+[v _chargeCurrent chargeCurrent `ui  1 e 2 0 ]
+[v _chargeCurrentPTR chargeCurrentPTR `*.39uc  1 e 2 0 ]
+"157
+[v _dischargeCurrent dischargeCurrent `ui  1 e 2 0 ]
+[v _dischargeCurrentPTR dischargeCurrentPTR `*.39uc  1 e 2 0 ]
+"158
+[v _columb_count_val columb_count_val `ul  1 e 4 0 ]
+"159
+[v _columb_countPTR columb_countPTR `*.39uc  1 e 2 0 ]
+"161
+[v _seconds seconds `VEuc  1 e 1 0 ]
+[v _minutes minutes `VEuc  1 e 1 0 ]
+[v _hour hour `VEuc  1 e 1 0 ]
+"164
+[v _powerState powerState `uc  1 e 1 0 ]
+"165
+[v _updateMeasurement updateMeasurement `uc  1 e 1 0 ]
+"166
+[v _battery_flag battery_flag `uc  1 e 1 0 ]
+"168
+[v _gateway_post_data gateway_post_data `uc  1 e 1 0 ]
+"169
+[v _diagnozeMode diagnozeMode `uc  1 e 1 0 ]
+"170
+[v _timer_tick timer_tick `uc  1 e 1 0 ]
+"172
+[v _chargingCurrent chargingCurrent `f  1 e 3 0 ]
+[v _loadCurrent loadCurrent `f  1 e 3 0 ]
+[v _energyconsumed energyconsumed `f  1 e 3 0 ]
+[v _loadPower loadPower `f  1 e 3 0 ]
+[v _batteryVoltage batteryVoltage `f  1 e 3 0 ]
+"173
+[v _CHARGING_CURRENT_REFERENCE CHARGING_CURRENT_REFERENCE `f  1 e 3 0 ]
+[v _LOAD_CURRENT_REFERENCE LOAD_CURRENT_REFERENCE `f  1 e 3 0 ]
+"175
+[v _batteryPercentage batteryPercentage `[4]uc  1 e 4 0 ]
+"176
+[v _columb_count columb_count `ul  1 e 4 0 ]
+"177
+[v _columb_count_char columb_count_char `[12]uc  1 e 12 0 ]
+"179
+[v _systemData systemData `[8]ui  1 e 16 0 ]
+"180
+[v _boostTemperature boostTemperature `ui  1 e 2 0 ]
+[v _chargerTemperature chargerTemperature `ui  1 e 2 0 ]
+[v _outputV outputV `ui  1 e 2 0 ]
+"181
+[v _Ba3Voltage Ba3Voltage `[46]uc  1 e 46 0 ]
+"182
+[v _batterystate batterystate `uc  1 e 1 0 ]
+"183
+[v _battery_oldState battery_oldState `uc  1 e 1 0 ]
+"185
+[v _homepageUpdate homepageUpdate `uc  1 e 1 0 ]
+"186
+[v _timeleft_hour timeleft_hour `uc  1 e 1 0 ]
+[v _timeleft_minutes timeleft_minutes `uc  1 e 1 0 ]
+"187
+[v _timelefthrSTR timelefthrSTR `[3]uc  1 e 3 0 ]
+[v _timeleftminSTR timeleftminSTR `[3]uc  1 e 3 0 ]
+"188
+[v _ledtoggle ledtoggle `uc  1 e 1 0 ]
+"189
+[v _GatewayData GatewayData `[75]uc  1 e 75 0 ]
+"190
+[v _energyConsumption energyConsumption `[10]uc  1 e 10 0 ]
+[v _outputVoltage outputVoltage `[4]uc  1 e 4 0 ]
+[v _batteryPower batteryPower `[8]uc  1 e 8 0 ]
+"191
+[v _loadPower_buff loadPower_buff `[9]uc  1 e 9 0 ]
+"192
+[v _charging_power charging_power `f  1 e 3 0 ]
+"256
+[v _rainbowColour_sequence rainbowColour_sequence `[33]uc  1 e 33 0 ]
+"258
+[v _rainbow_flag rainbow_flag `uc  1 e 1 0 ]
+"268
+[v _diagnozepageUpdate diagnozepageUpdate `uc  1 e 1 0 ]
+"63 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal16bit timer0ReloadVal16bit `VEui  1 e 2 0 ]
+"72
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"57 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEui  1 e 2 0 ]
+"58
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"63 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart1.c
+[v _uart1TxHead uart1TxHead `VEuc  1 s 1 uart1TxHead ]
+"64
+[v _uart1TxTail uart1TxTail `VEuc  1 s 1 uart1TxTail ]
+"65
+[v _uart1TxBuffer uart1TxBuffer `VE[64]uc  1 s 64 uart1TxBuffer ]
+"66
+[v _uart1TxBufferRemaining uart1TxBufferRemaining `VEuc  1 e 1 0 ]
+"68
+[v _uart1RxHead uart1RxHead `VEuc  1 s 1 uart1RxHead ]
+"69
+[v _uart1RxTail uart1RxTail `VEuc  1 s 1 uart1RxTail ]
+"70
+[v _uart1RxBuffer uart1RxBuffer `VE[64]uc  1 s 64 uart1RxBuffer ]
+[s S695 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"71
+[u S700 . 1 `S695 1 . 1 0 `uc 1 status 1 0 ]
+[v _uart1RxStatusBuffer uart1RxStatusBuffer `VE[64]S700  1 s 64 uart1RxStatusBuffer ]
+"72
+[v _uart1RxCount uart1RxCount `VEuc  1 e 1 0 ]
+"73
+[v _uart1RxLastError uart1RxLastError `VES700  1 s 1 uart1RxLastError ]
+"78
+[v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"79
+[v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"80
+[v _UART1_ErrorHandler UART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"521 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart1.h
+[v _UART1_RxInterruptHandler UART1_RxInterruptHandler `*.37(v  1 e 2 0 ]
+"539
+[v _UART1_TxInterruptHandler UART1_TxInterruptHandler `*.37(v  1 e 2 0 ]
+"66 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart2.c
+[v _uart2TxHead uart2TxHead `VEuc  1 s 1 uart2TxHead ]
+"67
+[v _uart2TxTail uart2TxTail `VEuc  1 s 1 uart2TxTail ]
+"68
+[v _uart2TxBuffer uart2TxBuffer `VE[8]uc  1 s 8 uart2TxBuffer ]
+"69
+[v _uart2TxBufferRemaining uart2TxBufferRemaining `VEuc  1 e 1 0 ]
+"71
+[v _uart2RxHead uart2RxHead `VEuc  1 s 1 uart2RxHead ]
+"72
+[v _uart2RxTail uart2RxTail `VEuc  1 s 1 uart2RxTail ]
+"73
+[v _uart2RxBuffer uart2RxBuffer `VE[8]uc  1 s 8 uart2RxBuffer ]
+"74
+[v _uart2RxStatusBuffer uart2RxStatusBuffer `VE[8]S700  1 s 8 uart2RxStatusBuffer ]
+"75
+[v _uart2RxCount uart2RxCount `VEuc  1 e 1 0 ]
+"76
+[v _uart2RxLastError uart2RxLastError `VES700  1 s 1 uart2RxLastError ]
+"81
+[v _UART2_FramingErrorHandler UART2_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"82
+[v _UART2_OverrunErrorHandler UART2_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"83
+[v _UART2_ErrorHandler UART2_ErrorHandler `*.37(v  1 e 2 0 ]
+"522 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart2.h
+[v _UART2_RxInterruptHandler UART2_RxInterruptHandler `*.37(v  1 e 2 0 ]
+"540
+[v _UART2_TxInterruptHandler UART2_TxInterruptHandler `*.37(v  1 e 2 0 ]
+"18 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\WS2812.c
+[v _data data `VEuc  1 e 1 @49 ]
+"269 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"319
+[v main@rainbow_val rainbow_val `i  1 a 2 4 ]
+"494
+} 0
+"1299
+[v _welcomePage welcomePage `(v  1 e 1 0 ]
+{
+"1318
+} 0
+"1663
+[v _welcomeDiagnostic welcomeDiagnostic `(v  1 e 1 0 ]
+{
+"1679
+} 0
+"1208
+[v _warningCheck warningCheck `(v  1 s 1 warningCheck ]
+{
+"1224
+} 0
+"1520
+[v _warningPage warningPage `(v  1 e 1 0 ]
+{
+[v warningPage@warning warning `uc  1 a 1 wreg ]
+"1522
+[v warningPage@WARNING_STATEMENT WARNING_STATEMENT `*.32uc  1 a 2 95 ]
+"1520
+[v warningPage@warning warning `uc  1 a 1 wreg ]
+"1523
+[v warningPage@warning warning `uc  1 a 1 94 ]
+"1569
+} 0
+"1119
+[v _updateHomepage updateHomepage `(v  1 e 1 0 ]
+{
+"1132
+} 0
+"1345
+[v _homePage2 homePage2 `(v  1 e 1 0 ]
+{
+"1375
+} 0
+"979
+[v _print_float print_float `(*.39uc  1 e 2 0 ]
+{
+"981
+[v print_float@s1 s1 `[8]uc  1 a 8 74 ]
+"982
+[v print_float@w w `i  1 a 2 84 ]
+"983
+[v print_float@decimal decimal `i  1 a 2 82 ]
+"979
+[v print_float@val val `f  1 p 3 43 ]
+"986
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 17 ]
+"32
+[v ___awtoft@c c `i  1 p 2 14 ]
+"42
+} 0
+"1377 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _homePage1 homePage1 `(v  1 e 1 0 ]
+{
+"1403
+} 0
+"653
+[v _set_on_time set_on_time `(v  1 e 1 0 ]
+{
+"655
+[v set_on_time@minutes_s minutes_s `[3]uc  1 a 3 95 ]
+[v set_on_time@hours_s hours_s `[3]uc  1 a 3 92 ]
+"674
+} 0
+"575
+[v _check_charging check_charging `(v  1 e 1 0 ]
+{
+"587
+} 0
+"822
+[v _systemControl systemControl `(v  1 e 1 0 ]
+{
+"863
+} 0
+"724
+[v _BMS_DATA BMS_DATA `(v  1 e 1 0 ]
+{
+"728
+[v BMS_DATA@i i `i  1 a 2 96 ]
+"732
+[v BMS_DATA@columbPTR columbPTR `*.39uc  1 a 2 94 ]
+"787
+} 0
+"1148
+[v _shutDOWN shutDOWN `(v  1 e 1 0 ]
+{
+"1163
+} 0
+"1319
+[v _clearUART_buffer clearUART_buffer `(v  1 e 1 0 ]
+{
+[v clearUART_buffer@number number `uc  1 a 1 wreg ]
+"1338
+[v clearUART_buffer@dump_2913 dump `uc  1 a 1 9 ]
+"1327
+[v clearUART_buffer@dump dump `uc  1 a 1 8 ]
+"1319
+[v clearUART_buffer@number number `uc  1 a 1 wreg ]
+"1321
+[v clearUART_buffer@number number `uc  1 a 1 10 ]
+"1343
+} 0
+"1105
+[v _setONparameters setONparameters `(v  1 e 1 0 ]
+{
+"1117
+} 0
+"1134
+[v _setGridMode setGridMode `(v  1 e 1 0 ]
+{
+"1146
+} 0
+"1806
+[v _setDiagnosticMode setDiagnosticMode `(v  1 e 1 0 ]
+{
+"1824
+} 0
+"563
+[v _rainbowPowerUp rainbowPowerUp `(v  1 e 1 0 ]
+{
+[v rainbowPowerUp@colour_No colour_No `uc  1 a 1 wreg ]
+"565
+[v rainbowPowerUp@rainbowColour rainbowColour `[9]uc  1 a 9 6 ]
+"566
+[v rainbowPowerUp@i i `i  1 a 2 16 ]
+"563
+[v rainbowPowerUp@colour_No colour_No `uc  1 a 1 wreg ]
+"566
+[v rainbowPowerUp@colour_No colour_No `uc  1 a 1 15 ]
+"572
+} 0
+"1584
+[v _offChargingPage offChargingPage `(v  1 e 1 0 ]
+{
+"1607
+} 0
+"595
+[v _measureDATA measureDATA `(v  1 e 1 0 ]
+{
+"613
+} 0
+"1052
+[v _takeAllSystemMeasurement takeAllSystemMeasurement `(v  1 e 1 0 ]
+{
+"1058
+[v takeAllSystemMeasurement@accumulator accumulator `ul  1 a 4 22 ]
+"1057
+[v takeAllSystemMeasurement@j j `i  1 a 2 26 ]
+"1054
+[v takeAllSystemMeasurement@i i `i  1 a 2 28 ]
+"1070
+} 0
+"994
+[v _convert2actualVal convert2actualVal `(v  1 e 1 0 ]
+{
+"996
+[v convert2actualVal@bat_P bat_P `f  1 a 3 43 ]
+"1033
+} 0
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 24 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 28 ]
+[v ___ftdiv@exp exp `uc  1 a 1 27 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 23 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 14 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 17 ]
+"86
+} 0
+"589 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _Send_GatewayDATA Send_GatewayDATA `(v  1 e 1 0 ]
+{
+"593
+} 0
+"195 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart2.c
+[v _UART2_Send_words UART2_Send_words `(v  1 e 1 0 ]
+{
+[v UART2_Send_words@word word `*.39uc  1 p 2 7 ]
+"201
+} 0
+"615 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _listen4data listen4data `(v  1 e 1 0 ]
+{
+"619
+[v listen4data@i i `i  1 a 2 45 ]
+"623
+[v listen4data@columbPTR columbPTR `*.39uc  1 a 2 43 ]
+"641
+} 0
+"643
+[v _timeleft timeleft `(v  1 e 1 0 ]
+{
+"651
+} 0
+"1609
+[v _gridPage gridPage `(v  1 e 1 0 ]
+{
+"1619
+} 0
+"1429
+[v _defaultHomePage defaultHomePage `(v  1 e 1 0 ]
+{
+"1455
+} 0
+"551
+[v _gridCheck gridCheck `(v  1 e 1 0 ]
+{
+"561
+} 0
+"677
+[v _fan_Control fan_Control `(v  1 e 1 0 ]
+{
+"721
+} 0
+"82 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/pwm2.c
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM2_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 6 ]
+"98
+} 0
+"988 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _energyCalculation energyCalculation `(v  1 e 1 0 ]
+{
+"990
+[v energyCalculation@energy energy `f  1 a 3 21 ]
+"992
+} 0
+"1701
+[v _diagnosticPage2 diagnosticPage2 `(v  1 e 1 0 ]
+{
+"1723
+} 0
+"1687
+[v _printlong printlong `(*.39uc  1 e 2 0 ]
+{
+"1689
+[v printlong@result result `[10]uc  1 a 10 74 ]
+"1687
+[v printlong@d d `ul  1 p 4 43 ]
+"1692
+} 0
+"1694
+[v _printByte printByte `(*.39uc  1 e 2 0 ]
+{
+[v printByte@d d `uc  1 a 1 wreg ]
+"1696
+[v printByte@result result `[4]uc  1 a 4 75 ]
+"1694
+[v printByte@d d `uc  1 a 1 wreg ]
+"1697
+[v printByte@d d `uc  1 a 1 74 ]
+"1699
+} 0
+"1726
+[v _diagnosticPage1 diagnosticPage1 `(v  1 e 1 0 ]
+{
+"1758
+} 0
+"1681
+[v _printData printData `(*.39uc  1 e 2 0 ]
+{
+"1683
+[v printData@result result `[5]uc  1 a 5 74 ]
+"1681
+[v printData@d d `ui  1 p 2 43 ]
+"1686
+} 0
+"498
+[v _controlChargingStatus controlChargingStatus `(v  1 e 1 0 ]
+{
+"511
+} 0
+"1571
+[v _charging_status charging_status `(v  1 e 1 0 ]
+{
+"1583
+} 0
+"512
+[v _chargeControl chargeControl `(v  1 e 1 0 ]
+{
+"528
+} 0
+"531
+[v _callibrateACS callibrateACS `(v  1 e 1 0 ]
+{
+"536
+[v callibrateACS@accumulator accumulator `ul  1 a 4 0 ]
+"537
+[v callibrateACS@j j `i  1 a 2 8 ]
+"533
+[v callibrateACS@ACS_value ACS_value `[2]ui  1 a 4 4 ]
+[v callibrateACS@i i `i  1 a 2 10 ]
+"549
+} 0
+"1072
+[v _takeSystemMeasurement takeSystemMeasurement `(ui  1 e 2 0 ]
+{
+[v takeSystemMeasurement@channel channel `uc  1 a 1 wreg ]
+"1074
+[v takeSystemMeasurement@channel_t channel_t `uc  1 a 1 13 ]
+"1072
+[v takeSystemMeasurement@channel channel `uc  1 a 1 wreg ]
+[v takeSystemMeasurement@channel channel `uc  1 a 1 12 ]
+"1102
+} 0
+"113 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/adcc.c
+[v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
+{
+[v ADCC_StartConversion@channel channel `E18532  1 a 1 wreg ]
+[v ADCC_StartConversion@channel channel `E18532  1 a 1 wreg ]
+"116
+[v ADCC_StartConversion@channel channel `E18532  1 a 1 6 ]
+"123
+} 0
+"125
+[v _ADCC_IsConversionDone ADCC_IsConversionDone `(uc  1 e 1 0 ]
+{
+"129
+} 0
+"131
+[v _ADCC_GetConversionResult ADCC_GetConversionResult `(ui  1 e 2 0 ]
+{
+"135
+} 0
+"28 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 14 ]
+"31
+} 0
+"1035 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _animateLED animateLED `(v  1 e 1 0 ]
+{
+"1049
+} 0
+"1420
+[v _WS2812_writeRGB WS2812_writeRGB `(v  1 e 1 0 ]
+{
+[v WS2812_writeRGB@G G `uc  1 a 1 wreg ]
+"1422
+[v WS2812_writeRGB@GRB GRB `[3]uc  1 a 3 20 ]
+"1420
+[v WS2812_writeRGB@G G `uc  1 a 1 wreg ]
+[v WS2812_writeRGB@R R `uc  1 p 1 17 ]
+[v WS2812_writeRGB@B B `uc  1 p 1 18 ]
+"1423
+[v WS2812_writeRGB@G G `uc  1 a 1 19 ]
+"1427
+} 0
+"111 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/mcc.c
+[v _WWDT_SoftEnable WWDT_SoftEnable `(v  1 e 1 0 ]
+{
+"115
+} 0
+"117
+[v _WWDT_SoftDisable WWDT_SoftDisable `(v  1 e 1 0 ]
+{
+"121
+} 0
+"50
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"66
+} 0
+"103
+[v _WWDT_Initialize WWDT_Initialize `(v  1 e 1 0 ]
+{
+"109
+} 0
+"89 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart2.c
+[v _UART2_Initialize UART2_Initialize `(v  1 e 1 0 ]
+{
+"152
+} 0
+"311
+[v _UART2_SetTxInterruptHandler UART2_SetTxInterruptHandler `(v  1 e 1 0 ]
+{
+[v UART2_SetTxInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 6 ]
+"313
+} 0
+"307
+[v _UART2_SetRxInterruptHandler UART2_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v UART2_SetRxInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 6 ]
+"309
+} 0
+"297
+[v _UART2_SetOverrunErrorHandler UART2_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v UART2_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 6 ]
+"299
+} 0
+"293
+[v _UART2_SetFramingErrorHandler UART2_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v UART2_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 6 ]
+"295
+} 0
+"301
+[v _UART2_SetErrorHandler UART2_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v UART2_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 6 ]
+"303
+} 0
+"86 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+{
+"158
+} 0
+"320
+[v _UART1_SetTxInterruptHandler UART1_SetTxInterruptHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetTxInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 6 ]
+"322
+} 0
+"316
+[v _UART1_SetRxInterruptHandler UART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetRxInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 6 ]
+"318
+} 0
+"306
+[v _UART1_SetOverrunErrorHandler UART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 6 ]
+"308
+} 0
+"302
+[v _UART1_SetFramingErrorHandler UART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 6 ]
+"304
+} 0
+"310
+[v _UART1_SetErrorHandler UART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 6 ]
+"312
+} 0
+"62 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"64 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"193
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 6 ]
+"195
+} 0
+"74 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"101
+} 0
+"200
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 6 ]
+"202
+} 0
+"64 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"64 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"82 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"100
+} 0
+"55 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"121
+} 0
+"68 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"52 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"58 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"62 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"111
+} 0
+"1760 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _DIAGNOSTIC_DATA DIAGNOSTIC_DATA `(v  1 e 1 0 ]
+{
+"1767
+[v DIAGNOSTIC_DATA@i i `uc  1 a 1 9 ]
+"1762
+[v DIAGNOSTIC_DATA@update update `uc  1 a 1 8 ]
+"1804
+} 0
+"160 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart1.c
+[v _UART1_is_rx_ready UART1_is_rx_ready `(uc  1 e 1 0 ]
+{
+"163
+} 0
+"179
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+{
+"181
+[v UART1_Read@readValue readValue `uc  1 a 1 6 ]
+"200
+} 0
+"1227 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _ButtonScan ButtonScan `(v  1 e 1 0 ]
+{
+"1267
+[v ButtonScan@subscribe_data subscribe_data `uc  1 a 1 17 ]
+"1229
+[v ButtonScan@update update `uc  1 a 1 18 ]
+"1296
+} 0
+"154 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart2.c
+[v _UART2_is_rx_ready UART2_is_rx_ready `(uc  1 e 1 0 ]
+{
+"157
+} 0
+"203
+[v _UART2_Write UART2_Write `(v  1 e 1 0 ]
+{
+[v UART2_Write@txData txData `uc  1 a 1 wreg ]
+[v UART2_Write@txData txData `uc  1 a 1 wreg ]
+[v UART2_Write@txData txData `uc  1 a 1 6 ]
+"225
+} 0
+"173
+[v _UART2_Read UART2_Read `(uc  1 e 1 0 ]
+{
+"175
+[v UART2_Read@readValue readValue `uc  1 a 1 6 ]
+"194
+} 0
+"105 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr1.c
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+{
+"109
+} 0
+"99
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"103
+} 0
+"1165 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _ResetAllParameters ResetAllParameters `(v  1 e 1 0 ]
+{
+"1182
+} 0
+"1405
+[v _WS2812_writeColour WS2812_writeColour `(v  1 e 1 0 ]
+{
+"1407
+[v WS2812_writeColour@colour2print colour2print `[9]uc  1 a 9 8 ]
+"1405
+[v WS2812_writeColour@colour colour `*.39uc  1 p 2 6 ]
+"1418
+} 0
+"24 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\WS2812.c
+[v _WS2812_Write WS2812_Write `(v  1 e 1 0 ]
+{
+"33
+[v WS2812_Write@i i `i  1 a 2 4 ]
+"26
+[v WS2812_Write@ledMax ledMax `ui  1 a 2 0 ]
+"30
+[v WS2812_Write@interruptStatus2 interruptStatus2 `uc  1 a 1 3 ]
+"29
+[v WS2812_Write@interruptStatus1 interruptStatus1 `uc  1 a 1 2 ]
+"24
+[v WS2812_Write@led led `ui  1 p 2 26 ]
+[v WS2812_Write@buff buff `*.39uc  1 p 2 28 ]
+"134
+} 0
+"1621 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _BMS_CALIBRATION_PAGE BMS_CALIBRATION_PAGE `(v  1 e 1 0 ]
+{
+"1637
+} 0
+"959
+[v _percentageUpdate percentageUpdate `(v  1 e 1 0 ]
+{
+[v percentageUpdate@batteryvalue batteryvalue `uc  1 a 1 wreg ]
+[v percentageUpdate@batteryvalue batteryvalue `uc  1 a 1 wreg ]
+"961
+[v percentageUpdate@batteryvalue batteryvalue `uc  1 a 1 32 ]
+"976
+} 0
+"492 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+"528
+[v sprintf@val val `ul  1 a 4 62 ]
+[u S3345 . 4 `ul 1 vd 4 0 `d 1 integ 3 0 ]
+"526
+[v sprintf@tmpval tmpval `S3345  1 a 4 54 ]
+"516
+[v sprintf@fval fval `d  1 a 3 68 ]
+"504
+[v sprintf@prec prec `i  1 a 2 71 ]
+"501
+[v sprintf@width width `i  1 a 2 66 ]
+"516
+[v sprintf@exp exp `i  1 a 2 60 ]
+"508
+[v sprintf@flag flag `us  1 a 2 58 ]
+"494
+[v sprintf@ap ap `[1]*.39v  1 a 2 52 ]
+"529
+[v sprintf@len len `ui  1 a 2 50 ]
+"530
+[v sprintf@cp cp `*.34Cuc  1 a 2 48 ]
+"499
+[v sprintf@c c `c  1 a 1 73 ]
+"492
+[v sprintf@sp sp `*.39uc  1 p 2 0 ]
+[v sprintf@f f `*.32Cuc  1 p 2 2 ]
+"1541
+} 0
+"425
+[v _scale scale `(d  1 s 3 scale ]
+{
+[v scale@scl scl `c  1 a 1 wreg ]
+[v scale@scl scl `c  1 a 1 wreg ]
+"428
+[v scale@scl scl `c  1 a 1 27 ]
+"441
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 8 ]
+"15
+} 0
+"409 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _fround fround `(d  1 s 3 fround ]
+{
+[v fround@prec prec `uc  1 a 1 wreg ]
+[v fround@prec prec `uc  1 a 1 wreg ]
+"413
+[v fround@prec prec `uc  1 a 1 30 ]
+"418
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 24 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 20 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 22 ]
+"53
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 16 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 20 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 19 ]
+[v ___ftmul@exp exp `uc  1 a 1 15 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 6 ]
+[v ___ftmul@f2 f2 `f  1 p 3 9 ]
+"157
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 11 ]
+[v ___awmod@counter counter `uc  1 a 1 10 ]
+"8
+[v ___awmod@dividend dividend `i  1 p 2 6 ]
+[v ___awmod@divisor divisor `i  1 p 2 8 ]
+"35
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 18 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 17 ]
+[v ___awdiv@counter counter `uc  1 a 1 16 ]
+"8
+[v ___awdiv@dividend dividend `i  1 p 2 12 ]
+[v ___awdiv@divisor divisor `i  1 p 2 14 ]
+"42
+} 0
+"60 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __tdiv_to_l_@quot quot `ul  1 a 4 15 ]
+"62
+[v __tdiv_to_l_@exp1 exp1 `uc  1 a 1 20 ]
+[v __tdiv_to_l_@cntr cntr `uc  1 a 1 19 ]
+"60
+[v __tdiv_to_l_@f1 f1 `f  1 p 3 6 ]
+[v __tdiv_to_l_@f2 f2 `f  1 p 3 9 ]
+"101
+} 0
+"60 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __div_to_l_@quot quot `ul  1 a 4 12 ]
+"62
+[v __div_to_l_@exp1 exp1 `uc  1 a 1 17 ]
+[v __div_to_l_@cntr cntr `uc  1 a 1 16 ]
+"60
+[v __div_to_l_@f1 f1 `d  1 p 3 6 ]
+[v __div_to_l_@f2 f2 `d  1 p 3 9 ]
+"101
+} 0
+"35 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+{
+"37
+[v ___lltoft@exp exp `uc  1 a 1 22 ]
+"35
+[v ___lltoft@c c `ul  1 p 4 14 ]
+"46
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"11
+[v ___llmod@counter counter `uc  1 a 1 27 ]
+"8
+[v ___llmod@dividend dividend `ul  1 p 4 19 ]
+[v ___llmod@divisor divisor `ul  1 p 4 23 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 14 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 18 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 6 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 10 ]
+"31
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 38 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 42 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 37 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 28 ]
+"73
+} 0
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+{
+[v ___ftsub@f1 f1 `f  1 p 3 6 ]
+[v ___ftsub@f2 f2 `f  1 p 3 9 ]
+"27
+} 0
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 5 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 4 ]
+[v ___ftadd@sign sign `uc  1 a 1 3 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 26 ]
+[v ___ftadd@f2 f2 `f  1 p 3 29 ]
+"148
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 6 ]
+[v ___ftpack@exp exp `uc  1 p 1 9 ]
+[v ___ftpack@sign sign `uc  1 p 1 10 ]
+"86
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+{
+[v ___ftneg@f1 f1 `f  1 p 3 18 ]
+"20
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 6 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 9 ]
+"13
+} 0
+"866 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _batteryBar batteryBar `(v  1 e 1 0 ]
+{
+"868
+[v batteryBar@battery_newState battery_newState `uc  1 a 1 92 ]
+"894
+} 0
+"896
+[v _updateBatteryBAR updateBatteryBAR `(v  1 e 1 0 ]
+{
+[v updateBatteryBAR@status status `uc  1 a 1 wreg ]
+[v updateBatteryBAR@status status `uc  1 a 1 wreg ]
+[v updateBatteryBAR@range range `uc  1 p 1 47 ]
+[v updateBatteryBAR@status status `uc  1 a 1 32 ]
+"957
+} 0
+"182 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\lcd.c
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+"184
+[v Lcd_Write_String@i i `i  1 a 2 90 ]
+"182
+[v Lcd_Write_String@a a `*.34uc  1 p 2 86 ]
+"187
+} 0
+"113
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"115
+[v Lcd_Write_Char@y y `uc  1 a 1 8 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 7 ]
+"113
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"116
+[v Lcd_Write_Char@a a `uc  1 a 1 9 ]
+"127
+} 0
+"51
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"53
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 13 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 12 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 11 ]
+"51
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 9 ]
+"54
+[v Lcd_Set_Cursor@a a `uc  1 a 1 10 ]
+"86
+} 0
+"82 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/pwm1.c
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM1_LoadDutyValue@dutyValue dutyValue `ui  1 p 2 6 ]
+"98
+} 0
+"1642 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _LCD_initialization LCD_initialization `(v  1 e 1 0 ]
+{
+"1647
+} 0
+"88 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\lcd.c
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"110
+} 0
+"44
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+{
+"49
+} 0
+"35
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+"37
+[v Lcd_Cmd@a a `uc  1 a 1 8 ]
+"42
+} 0
+"13
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+"15
+[v Lcd_Port@a a `uc  1 a 1 6 ]
+"34
+} 0
+"1650 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\main.c
+[v _CreateCustomCharacters CreateCustomCharacters `(v  1 e 1 0 ]
+{
+"1659
+} 0
+"157 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\lcd.c
+[v _LCD_CreateCharacter LCD_CreateCharacter `(v  1 e 1 0 ]
+{
+[v LCD_CreateCharacter@address address `uc  1 a 1 wreg ]
+"162
+[v LCD_CreateCharacter@i i `i  1 a 2 15 ]
+"157
+[v LCD_CreateCharacter@address address `uc  1 a 1 wreg ]
+[v LCD_CreateCharacter@data data `*.32uc  1 p 2 10 ]
+"159
+[v LCD_CreateCharacter@address address `uc  1 a 1 14 ]
+"166
+} 0
+"129
+[v _LCD_Send LCD_Send `(v  1 e 1 0 ]
+{
+[v LCD_Send@RSV RSV `uc  1 a 1 wreg ]
+[v LCD_Send@RSV RSV `uc  1 a 1 wreg ]
+[v LCD_Send@data data `uc  1 p 1 6 ]
+"131
+[v LCD_Send@RSV RSV `uc  1 a 1 9 ]
+"155
+} 0
+"58 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"89
+} 0
+"231 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart2.c
+[v _UART2_Transmit_ISR UART2_Transmit_ISR `(v  1 e 1 0 ]
+{
+"249
+} 0
+"251
+[v _UART2_Receive_ISR UART2_Receive_ISR `(v  1 e 1 0 ]
+{
+"273
+} 0
+"287
+[v _UART2_DefaultOverrunErrorHandler UART2_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"285
+[v _UART2_DefaultFramingErrorHandler UART2_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"289
+[v _UART2_DefaultErrorHandler UART2_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"291
+} 0
+"275
+[v _UART2_RxDataHandler UART2_RxDataHandler `(v  1 e 1 0 ]
+{
+"283
+} 0
+"240 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/uart1.c
+[v _UART1_Transmit_ISR UART1_Transmit_ISR `(v  1 e 1 0 ]
+{
+"258
+} 0
+"260
+[v _UART1_Receive_ISR UART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"282
+} 0
+"296
+[v _UART1_DefaultOverrunErrorHandler UART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"294
+[v _UART1_DefaultFramingErrorHandler UART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"298
+[v _UART1_DefaultErrorHandler UART1_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"300
+} 0
+"284
+[v _UART1_RxDataHandler UART1_RxDataHandler `(v  1 e 1 0 ]
+{
+"292
+} 0
+"164 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"166
+[v TMR1_ISR@CountCallBack CountCallBack `VEui  1 s 2 CountCallBack ]
+"181
+} 0
+"127
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `ui  1 p 2 0 ]
+"147
+} 0
+"183
+[v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
+{
+"191
+} 0
+"142 C:\Users\ENR SAO\Desktop\PHOTIZZO\WATTBANK_S_SERIES.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"144
+[v TMR0_ISR@CountCallBack CountCallBack `VEui  1 s 2 CountCallBack ]
+"163
+} 0
+"165
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+{
+"198
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awmod.c
+[v i2___awmod __awmod `(i  1 e 2 0 ]
+{
+[v i2___awmod@sign __awmod `uc  1 a 1 5 ]
+[v i2___awmod@counter __awmod `uc  1 a 1 4 ]
+[v i2___awmod@dividend dividend `i  1 p 2 0 ]
+[v i2___awmod@divisor divisor `i  1 p 2 2 ]
+"35
+} 0
