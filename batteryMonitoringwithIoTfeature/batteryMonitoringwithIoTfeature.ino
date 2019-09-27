@@ -40,7 +40,7 @@ void setup() {
 }
 
 void loop() {
-  /*batteryV = (analogRead(A0) * resolution);
+  batteryV = (analogRead(A0) * resolution);
 
     if (client.connect(server,80))
     {
@@ -68,7 +68,7 @@ void loop() {
     //Serial.println("Waiting to upload next reading...");
     //Serial.println();
     // thingspeak needs minimum 15 sec delay between updates
-  */
+  
   
   batteryRange();
   delay(10000);
