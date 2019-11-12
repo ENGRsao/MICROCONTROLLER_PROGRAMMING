@@ -1,0 +1,920 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K83 ]
+[d frameptr 4065 ]
+"89 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/tmr2.c
+[e E26634 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR2_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR2_OS_STARTS_TMRON_ERSHIGH 22
+TMR2_OS_STARTS_TMRON_ERSLOW 23
+TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR2_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"95
+[e E26657 . `uc
+TMR2_T2INPPS 0
+TMR2_RESERVED 1
+TMR2_T4POSTSCALED 2
+TMR2_T6POSTSCALED 3
+TMR2_CCP1_OUT 4
+TMR2_CCP2_OUT 5
+TMR2_CCP3_OUT 6
+TMR2_CCP4_OUT 7
+TMR2_PWM5_OUT 8
+TMR2_PWM6_OUT 9
+TMR2_PWM7_OUT 10
+TMR2_PWM8_OUT 11
+TMR2_RESERVED_2 12
+TMR2_RESERVED_3 13
+TMR2_C1_OUT_SYNC 14
+TMR2_C2_OUT_SYNC 15
+TMR2_ZCD_OUTPUT 16
+TMR2_CLC1_OUT 17
+TMR2_CLC2_OUT 18
+TMR2_CLC3_OUT 19
+TMR2_CLC4_OUT 20
+TMR2_UART1_RX_EDGE 21
+TMR2_UART1_TX_EDGE 22
+TMR2_UART2_RX_EDGE 23
+TMR2_UART2_TX_EDGE 24
+]
+"55 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/i2c1.c
+[e E26634 . `uc
+I2C1_GOOD 0
+I2C1_FAIL_TIMEOUT 1
+]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"52 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"57 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"80
+[v _wait4Start wait4Start `T(v  1 s 1 wait4Start ]
+"100
+[v _wait4BusFree wait4BusFree `T(v  1 s 1 wait4BusFree ]
+"120
+[v _sendByte sendByte `T(v  1 s 1 sendByte ]
+"141
+[v _receiveByte receiveByte `T(uc  1 s 1 receiveByte ]
+"162
+[v _wait4Stop wait4Stop `T(v  1 s 1 wait4Stop ]
+"182
+[v _wait4MDRSetcount wait4MDRSetcount `T(v  1 s 1 wait4MDRSetcount ]
+"203
+[v _i2c1_write1ByteRegister i2c1_write1ByteRegister `(v  1 e 1 0 ]
+"230
+[v _i2c1_writeNBytes i2c1_writeNBytes `(v  1 e 1 0 ]
+"52 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"62
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"76
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"65 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"62 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"111
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR2_Counter8BitGet TMR2_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
+"86 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+"179
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+"201
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+"238
+[v _UART1_Transmit_ISR UART1_Transmit_ISR `(v  1 e 1 0 ]
+"258
+[v _UART1_Receive_ISR UART1_Receive_ISR `(v  1 e 1 0 ]
+"282
+[v _UART1_RxDataHandler UART1_RxDataHandler `(v  1 e 1 0 ]
+"292
+[v _UART1_DefaultFramingErrorHandler UART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"294
+[v _UART1_DefaultOverrunErrorHandler UART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"296
+[v _UART1_DefaultErrorHandler UART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"300
+[v _UART1_SetFramingErrorHandler UART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"304
+[v _UART1_SetOverrunErrorHandler UART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"308
+[v _UART1_SetErrorHandler UART1_SetErrorHandler `(v  1 e 1 0 ]
+"314
+[v _UART1_SetRxInterruptHandler UART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+"318
+[v _UART1_SetTxInterruptHandler UART1_SetTxInterruptHandler `(v  1 e 1 0 ]
+"13 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\OLED.c
+[v _init_OLED init_OLED `(v  1 e 1 0 ]
+"63
+[v _clearRow clearRow `(v  1 e 1 0 ]
+"75
+[v _clearScreen clearScreen `(v  1 e 1 0 ]
+"88
+[v _setCursorPosition setCursorPosition `(v  1 e 1 0 ]
+"103
+[v _transmitCommand transmitCommand `(v  1 e 1 0 ]
+"108
+[v _transmitByte transmitByte `(v  1 e 1 0 ]
+"113
+[v _transmitDATA transmitDATA `(v  1 e 1 0 ]
+"118
+[v _print2Screen print2Screen `(v  1 e 1 0 ]
+"1893 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f25k83.h
+[v _T2TMR T2TMR `VEuc  1 e 1 @16298 ]
+"1898
+[v _TMR2 TMR2 `VEuc  1 e 1 @16298 ]
+"1931
+[v _T2PR T2PR `VEuc  1 e 1 @16299 ]
+"1936
+[v _PR2 PR2 `VEuc  1 e 1 @16299 ]
+"1969
+[v _T2CON T2CON `VEuc  1 e 1 @16300 ]
+[s S286 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"2005
+[s S290 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+[s S294 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+]
+[s S302 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+[u S311 . 1 `S286 1 . 1 0 `S290 1 . 1 0 `S294 1 . 1 0 `S302 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES311  1 e 1 @16300 ]
+"2115
+[v _T2HLT T2HLT `VEuc  1 e 1 @16301 ]
+[s S172 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"2148
+[s S177 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+[s S183 . 1 `uc 1 T2MODE 1 0 :5:0 
+`uc 1 T2CKSYNC 1 0 :1:5 
+`uc 1 T2CKPOL 1 0 :1:6 
+`uc 1 T2PSYNC 1 0 :1:7 
+]
+[s S188 . 1 `uc 1 T2MODE0 1 0 :1:0 
+`uc 1 T2MODE1 1 0 :1:1 
+`uc 1 T2MODE2 1 0 :1:2 
+`uc 1 T2MODE3 1 0 :1:3 
+`uc 1 T2MODE4 1 0 :1:4 
+]
+[u S194 . 1 `S172 1 . 1 0 `S177 1 . 1 0 `S183 1 . 1 0 `S188 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES194  1 e 1 @16301 ]
+"2243
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @16302 ]
+"2401
+[v _T2RST T2RST `VEuc  1 e 1 @16303 ]
+[s S248 . 1 `uc 1 RSEL 1 0 :5:0 
+]
+"2428
+[s S250 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+`uc 1 RSEL4 1 0 :1:4 
+]
+[s S256 . 1 `uc 1 T2RSEL 1 0 :5:0 
+]
+[s S258 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+`uc 1 T2RSEL1 1 0 :1:1 
+`uc 1 T2RSEL2 1 0 :1:2 
+`uc 1 T2RSEL3 1 0 :1:3 
+`uc 1 T2RSEL4 1 0 :1:4 
+]
+[u S264 . 1 `S248 1 . 1 0 `S250 1 . 1 0 `S256 1 . 1 0 `S258 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES264  1 e 1 @16303 ]
+"3369
+[v _TMR0L TMR0L `VEuc  1 e 1 @16310 ]
+"3507
+[v _TMR0H TMR0H `VEuc  1 e 1 @16311 ]
+"3761
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @16312 ]
+[s S57 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"3789
+[s S63 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+[s S69 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+[u S75 . 1 `S57 1 . 1 0 `S63 1 . 1 0 `S69 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES75  1 e 1 @16312 ]
+"3859
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @16313 ]
+"4001
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+"4113
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+"4225
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+"4337
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"4399
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+"4461
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+[s S394 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"4823
+[s S402 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S405 . 1 `S394 1 . 1 0 `S402 1 . 1 0 ]
+[v _INTCON0bits INTCON0bits `VES405  1 e 1 @16338 ]
+[s S420 . 1 `uc 1 I2C1TXIE 1 0 :1:0 
+`uc 1 I2C1IE 1 0 :1:1 
+`uc 1 I2C1EIE 1 0 :1:2 
+`uc 1 U1RXIE 1 0 :1:3 
+`uc 1 U1TXIE 1 0 :1:4 
+`uc 1 U1EIE 1 0 :1:5 
+`uc 1 U1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"25394
+[s S429 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S435 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S440 . 1 `S420 1 . 1 0 `S429 1 . 1 0 `S435 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES440  1 e 1 @14739 ]
+[s S24 . 1 `uc 1 I2C1TXIF 1 0 :1:0 
+`uc 1 I2C1IF 1 0 :1:1 
+`uc 1 I2C1EIF 1 0 :1:2 
+`uc 1 U1RXIF 1 0 :1:3 
+`uc 1 U1TXIF 1 0 :1:4 
+`uc 1 U1EIF 1 0 :1:5 
+`uc 1 U1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"26110
+[s S33 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S38 . 1 `S24 1 . 1 0 `S33 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES38  1 e 1 @14755 ]
+[s S128 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR1GIF 1 0 :1:1 
+`uc 1 TMR2IF 1 0 :1:2 
+`uc 1 CCP1IF 1 0 :1:3 
+`uc 1 NCO1IF 1 0 :1:4 
+`uc 1 CWG1IF 1 0 :1:5 
+`uc 1 CLC1IF 1 0 :1:6 
+`uc 1 INT1IF 1 0 :1:7 
+]
+"26182
+[u S137 . 1 `S128 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES137  1 e 1 @14756 ]
+"26561
+[v _PMD0 PMD0 `VEuc  1 e 1 @14784 ]
+"26638
+[v _PMD1 PMD1 `VEuc  1 e 1 @14785 ]
+"26708
+[v _PMD2 PMD2 `VEuc  1 e 1 @14786 ]
+"26753
+[v _PMD3 PMD3 `VEuc  1 e 1 @14787 ]
+"26815
+[v _PMD4 PMD4 `VEuc  1 e 1 @14788 ]
+"26848
+[v _PMD5 PMD5 `VEuc  1 e 1 @14789 ]
+"26893
+[v _PMD6 PMD6 `VEuc  1 e 1 @14790 ]
+"26949
+[v _PMD7 PMD7 `VEuc  1 e 1 @14791 ]
+"27095
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"27235
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"27387
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"27438
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"27542
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"29240
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @14867 ]
+"29284
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @14868 ]
+"29460
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"29522
+[v _WPUA WPUA `VEuc  1 e 1 @14913 ]
+"29584
+[v _ODCONA ODCONA `VEuc  1 e 1 @14914 ]
+"29646
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @14915 ]
+"29956
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+"30018
+[v _WPUB WPUB `VEuc  1 e 1 @14929 ]
+"30080
+[v _ODCONB ODCONB `VEuc  1 e 1 @14930 ]
+"30142
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @14931 ]
+"30668
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"30730
+[v _WPUC WPUC `VEuc  1 e 1 @14945 ]
+"30792
+[v _ODCONC ODCONC `VEuc  1 e 1 @14946 ]
+"30854
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @14947 ]
+"31380
+[v _WPUE WPUE `VEuc  1 e 1 @14977 ]
+"32205
+[v _I2C1SCLPPS I2C1SCLPPS `VEuc  1 e 1 @15075 ]
+"32225
+[v _I2C1SDAPPS I2C1SDAPPS `VEuc  1 e 1 @15076 ]
+"32285
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @15079 ]
+"44825
+[v _I2C1RXB I2C1RXB `VEuc  1 e 1 @15722 ]
+"44845
+[v _I2C1TXB I2C1TXB `VEuc  1 e 1 @15723 ]
+"44865
+[v _I2C1CNT I2C1CNT `VEuc  1 e 1 @15724 ]
+"44955
+[v _I2C1ADB1 I2C1ADB1 `VEuc  1 e 1 @15726 ]
+"45057
+[v _I2C1CON0 I2C1CON0 `VEuc  1 e 1 @15731 ]
+[s S801 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 MDR 1 0 :1:3 
+`uc 1 CSTR 1 0 :1:4 
+`uc 1 S 1 0 :1:5 
+`uc 1 RSEN 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"45079
+[s S808 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 I2CEN 1 0 :1:7 
+]
+"45079
+[u S814 . 1 `S801 1 . 1 0 `S808 1 . 1 0 ]
+"45079
+"45079
+[v _I2C1CON0bits I2C1CON0bits `VES814  1 e 1 @15731 ]
+"45134
+[v _I2C1CON1 I2C1CON1 `VEuc  1 e 1 @15732 ]
+"45191
+[v _I2C1CON2 I2C1CON2 `VEuc  1 e 1 @15733 ]
+"45267
+[v _I2C1ERR I2C1ERR `VEuc  1 e 1 @15734 ]
+[s S843 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 D 1 0 :1:3 
+`uc 1 R 1 0 :1:4 
+`uc 1 MMA 1 0 :1:5 
+`uc 1 SMA 1 0 :1:6 
+`uc 1 BFRE 1 0 :1:7 
+]
+"45387
+[s S850 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 DATA 1 0 :1:3 
+`uc 1 READ 1 0 :1:4 
+]
+"45387
+[s S854 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_ADDRESS 1 0 :1:3 
+`uc 1 NOT_WRITE 1 0 :1:4 
+]
+"45387
+[s S858 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_A 1 0 :1:3 
+`uc 1 NOT_W 1 0 :1:4 
+]
+"45387
+[u S862 . 1 `S843 1 . 1 0 `S850 1 . 1 0 `S854 1 . 1 0 `S858 1 . 1 0 ]
+"45387
+"45387
+[v _I2C1STAT0bits I2C1STAT0bits `VES862  1 e 1 @15735 ]
+[s S887 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CLRBF 1 0 :1:2 
+`uc 1 RXRE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TXWE 1 0 :1:7 
+]
+"45464
+[u S896 . 1 `S887 1 . 1 0 ]
+"45464
+"45464
+[v _I2C1STAT1bits I2C1STAT1bits `VES896  1 e 1 @15736 ]
+"45494
+[v _I2C1PIR I2C1PIR `VEuc  1 e 1 @15737 ]
+[s S910 . 1 `uc 1 SCIF 1 0 :1:0 
+`uc 1 RSCIF 1 0 :1:1 
+`uc 1 PCIF 1 0 :1:2 
+`uc 1 ADRIF 1 0 :1:3 
+`uc 1 WRIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKTIF 1 0 :1:6 
+`uc 1 CNTIF 1 0 :1:7 
+]
+"45521
+[s S919 . 1 `uc 1 SC1IF 1 0 :1:0 
+`uc 1 RSC1IF 1 0 :1:1 
+`uc 1 PC1IF 1 0 :1:2 
+`uc 1 ADR1IF 1 0 :1:3 
+`uc 1 WR1IF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKT1IF 1 0 :1:6 
+`uc 1 CNT1IF 1 0 :1:7 
+]
+"45521
+[u S928 . 1 `S910 1 . 1 0 `S919 1 . 1 0 ]
+"45521
+"45521
+[v _I2C1PIRbits I2C1PIRbits `VES928  1 e 1 @15737 ]
+"45698
+[v _I2C1CLK I2C1CLK `VEuc  1 e 1 @15739 ]
+"46910
+[v _U1RXB U1RXB `VEuc  1 e 1 @15848 ]
+"46968
+[v _U1TXB U1TXB `VEuc  1 e 1 @15850 ]
+"47033
+[v _U1P1L U1P1L `VEuc  1 e 1 @15852 ]
+"47053
+[v _U1P1H U1P1H `VEuc  1 e 1 @15853 ]
+"47080
+[v _U1P2L U1P2L `VEuc  1 e 1 @15854 ]
+"47100
+[v _U1P2H U1P2H `VEuc  1 e 1 @15855 ]
+"47127
+[v _U1P3L U1P3L `VEuc  1 e 1 @15856 ]
+"47147
+[v _U1P3H U1P3H `VEuc  1 e 1 @15857 ]
+"47167
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @15858 ]
+"47295
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @15859 ]
+"47375
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @15860 ]
+"47524
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @15861 ]
+"47544
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @15862 ]
+"47564
+[v _U1FIFO U1FIFO `VEuc  1 e 1 @15863 ]
+"47694
+[v _U1UIR U1UIR `VEuc  1 e 1 @15864 ]
+"47750
+[v _U1ERRIR U1ERRIR `VEuc  1 e 1 @15865 ]
+[s S611 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"47777
+[s S620 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+"47777
+[u S629 . 1 `S611 1 . 1 0 `S620 1 . 1 0 ]
+"47777
+"47777
+[v _U1ERRIRbits U1ERRIRbits `VES629  1 e 1 @15865 ]
+"47862
+[v _U1ERRIE U1ERRIE `VEuc  1 e 1 @15866 ]
+"2 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\fonts.h
+[v _capFont capFont `C[320]uc  1 e 320 0 ]
+"55 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/i2c1.c
+[v _lastError lastError `E26634  1 s 1 lastError ]
+"58 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal16bit timer0ReloadVal16bit `VEui  1 e 2 0 ]
+"63 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/uart1.c
+[v _uart1TxHead uart1TxHead `VEuc  1 s 1 uart1TxHead ]
+"64
+[v _uart1TxTail uart1TxTail `VEuc  1 s 1 uart1TxTail ]
+"65
+[v _uart1TxBuffer uart1TxBuffer `VE[8]uc  1 s 8 uart1TxBuffer ]
+"66
+[v _uart1TxBufferRemaining uart1TxBufferRemaining `VEuc  1 e 1 0 ]
+"68
+[v _uart1RxHead uart1RxHead `VEuc  1 s 1 uart1RxHead ]
+"69
+[v _uart1RxTail uart1RxTail `VEuc  1 s 1 uart1RxTail ]
+"70
+[v _uart1RxBuffer uart1RxBuffer `VE[8]uc  1 s 8 uart1RxBuffer ]
+[s S510 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"71
+[u S515 . 1 `S510 1 . 1 0 `uc 1 status 1 0 ]
+[v _uart1RxStatusBuffer uart1RxStatusBuffer `VE[8]S515  1 s 8 uart1RxStatusBuffer ]
+"72
+[v _uart1RxCount uart1RxCount `VEuc  1 e 1 0 ]
+"73
+[v _uart1RxLastError uart1RxLastError `VES515  1 s 1 uart1RxLastError ]
+"78
+[v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"79
+[v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"80
+[v _UART1_ErrorHandler UART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"521 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/uart1.h
+[v _UART1_RxInterruptHandler UART1_RxInterruptHandler `*.37(v  1 e 2 0 ]
+"539
+[v _UART1_TxInterruptHandler UART1_TxInterruptHandler `*.37(v  1 e 2 0 ]
+"60 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\OLED.c
+[v _clearPixel clearPixel `[32]uc  1 e 32 0 ]
+"61
+[v _leftOver leftOver `[4]uc  1 e 4 0 ]
+"52 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"72
+} 0
+"118 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\OLED.c
+[v _print2Screen print2Screen `(v  1 e 1 0 ]
+{
+[v print2Screen@row row `uc  1 a 1 wreg ]
+"128
+[v print2Screen@character character `i  1 a 2 34 ]
+"129
+[v print2Screen@k k `uc  1 a 1 39 ]
+"121
+[v print2Screen@pixelVal pixelVal `[5]uc  1 a 5 29 ]
+"125
+[v print2Screen@i i `i  1 a 2 37 ]
+"120
+[v print2Screen@current_column current_column `i  1 a 2 27 ]
+[v print2Screen@current_row current_row `i  1 a 2 25 ]
+"118
+[v print2Screen@row row `uc  1 a 1 wreg ]
+[v print2Screen@column column `uc  1 p 1 19 ]
+[v print2Screen@data data `*.25uc  1 p 2 20 ]
+"122
+[v print2Screen@row row `uc  1 a 1 36 ]
+"140
+} 0
+"108
+[v _transmitByte transmitByte `(v  1 e 1 0 ]
+{
+[v transmitByte@data data `uc  1 a 1 wreg ]
+[v transmitByte@data data `uc  1 a 1 wreg ]
+"110
+[v transmitByte@data data `uc  1 a 1 5 ]
+"111
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v strlen@cp cp `*.25Cuc  1 a 2 4 ]
+"4
+[v strlen@s s `*.25Cuc  1 p 2 0 ]
+"13
+} 0
+"88 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\OLED.c
+[v _setCursorPosition setCursorPosition `(v  1 e 1 0 ]
+{
+"97
+[v setCursorPosition@upperAddressByte upperAddressByte `i  1 a 2 17 ]
+"96
+[v setCursorPosition@lowerAddressByte lowerAddressByte `i  1 a 2 15 ]
+"91
+[v setCursorPosition@page page `i  1 a 2 13 ]
+"88
+[v setCursorPosition@row row `i  1 p 2 6 ]
+[v setCursorPosition@column column `i  1 p 2 8 ]
+"100
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"13 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\OLED.c
+[v _init_OLED init_OLED `(v  1 e 1 0 ]
+{
+"48
+} 0
+"75
+[v _clearScreen clearScreen `(v  1 e 1 0 ]
+{
+"77
+[v clearScreen@i i `i  1 a 2 17 ]
+"84
+} 0
+"63
+[v _clearRow clearRow `(v  1 e 1 0 ]
+{
+[v clearRow@row row `uc  1 a 1 wreg ]
+"67
+[v clearRow@i i `i  1 a 2 15 ]
+"65
+[v clearRow@page page `i  1 a 2 12 ]
+"63
+[v clearRow@row row `uc  1 a 1 wreg ]
+"65
+[v clearRow@row row `uc  1 a 1 14 ]
+"73
+} 0
+"113
+[v _transmitDATA transmitDATA `(v  1 e 1 0 ]
+{
+[v transmitDATA@data data `*.39uc  1 p 2 9 ]
+[v transmitDATA@datalen datalen `uc  1 p 1 11 ]
+"116
+} 0
+"230 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/i2c1.c
+[v _i2c1_writeNBytes i2c1_writeNBytes `(v  1 e 1 0 ]
+{
+[v i2c1_writeNBytes@address address `uc  1 a 1 wreg ]
+"232
+[v i2c1_writeNBytes@dataPointer dataPointer `*.39uc  1 a 2 7 ]
+"230
+[v i2c1_writeNBytes@address address `uc  1 a 1 wreg ]
+[v i2c1_writeNBytes@reg reg `uc  1 p 1 2 ]
+[v i2c1_writeNBytes@data data `*.39v  1 p 2 3 ]
+[v i2c1_writeNBytes@len len `uc  1 p 1 5 ]
+"232
+[v i2c1_writeNBytes@address address `uc  1 a 1 6 ]
+"246
+} 0
+"103 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\OLED.c
+[v _transmitCommand transmitCommand `(v  1 e 1 0 ]
+{
+[v transmitCommand@command command `uc  1 a 1 wreg ]
+[v transmitCommand@command command `uc  1 a 1 wreg ]
+"105
+[v transmitCommand@command command `uc  1 a 1 5 ]
+"106
+} 0
+"203 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/i2c1.c
+[v _i2c1_write1ByteRegister i2c1_write1ByteRegister `(v  1 e 1 0 ]
+{
+[v i2c1_write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v i2c1_write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v i2c1_write1ByteRegister@reg reg `uc  1 p 1 2 ]
+[v i2c1_write1ByteRegister@data data `uc  1 p 1 3 ]
+"205
+[v i2c1_write1ByteRegister@address address `uc  1 a 1 4 ]
+"214
+} 0
+"162
+[v _wait4Stop wait4Stop `T(v  1 s 1 wait4Stop ]
+{
+"164
+[v wait4Stop@waitCount waitCount `uc  1 a 1 0 ]
+"180
+} 0
+"80
+[v _wait4Start wait4Start `T(v  1 s 1 wait4Start ]
+{
+"82
+[v wait4Start@waitCount waitCount `uc  1 a 1 0 ]
+"98
+} 0
+"100
+[v _wait4BusFree wait4BusFree `T(v  1 s 1 wait4BusFree ]
+{
+"102
+[v wait4BusFree@waitCount waitCount `uc  1 a 1 0 ]
+"118
+} 0
+"120
+[v _sendByte sendByte `T(v  1 s 1 sendByte ]
+{
+[v sendByte@data data `uc  1 a 1 wreg ]
+"122
+[v sendByte@delayCounter delayCounter `uc  1 a 1 1 ]
+"120
+[v sendByte@data data `uc  1 a 1 wreg ]
+"122
+[v sendByte@data data `uc  1 a 1 0 ]
+"139
+} 0
+"50 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"60
+} 0
+"86 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+{
+"158
+} 0
+"318
+[v _UART1_SetTxInterruptHandler UART1_SetTxInterruptHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetTxInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"320
+} 0
+"314
+[v _UART1_SetRxInterruptHandler UART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetRxInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"316
+} 0
+"304
+[v _UART1_SetOverrunErrorHandler UART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"306
+} 0
+"300
+[v _UART1_SetFramingErrorHandler UART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"302
+} 0
+"308
+[v _UART1_SetErrorHandler UART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"310
+} 0
+"62 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"65 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"76 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"55 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"112
+} 0
+"62 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"52 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"57 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"73
+} 0
+"58 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"73
+} 0
+"238 C:\Users\ENR SAO\MPLABXProjects\OLED_test.X\mcc_generated_files/uart1.c
+[v _UART1_Transmit_ISR UART1_Transmit_ISR `(v  1 e 1 0 ]
+{
+"256
+} 0
+"258
+[v _UART1_Receive_ISR UART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"280
+} 0
+"294
+[v _UART1_DefaultOverrunErrorHandler UART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"292
+[v _UART1_DefaultFramingErrorHandler UART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"296
+[v _UART1_DefaultErrorHandler UART1_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"298
+} 0
+"282
+[v _UART1_RxDataHandler UART1_RxDataHandler `(v  1 e 1 0 ]
+{
+"290
+} 0
