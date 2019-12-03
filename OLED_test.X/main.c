@@ -65,7 +65,7 @@ void main(void)
     clearScreen();
     // Disable the Global Interrupts
     //INTERRUPT_GlobalInterruptDisable();
-    print2Screen(2,10,"HELLO WORLD");
+    print2Screen(2,10,"HE");
 
     while (1)
     {
