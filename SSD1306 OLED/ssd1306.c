@@ -57,12 +57,12 @@ void init_OLED(void)
 
 void powerUP()
 {
-	transmitCommand(SSD1306_DISPLAYALLON);
+	transmitCommand(SSD1306_DISPLAYON);
 }
 
 void powerDown()
 {
-	transmitCommand(SSD1306_DISPLAYALLON);
+	transmitCommand(SSD1306_DISPLAYOFF) ; 
 }
 
 
