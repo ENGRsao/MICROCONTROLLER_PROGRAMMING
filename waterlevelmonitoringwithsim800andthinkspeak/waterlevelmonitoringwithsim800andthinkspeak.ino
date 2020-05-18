@@ -87,12 +87,14 @@ void confirmSim()
     delay(200);
     }
 }
+
 void shutConnection()
 {
   sim.write("AT+CIPSHUT\r\n");
   delay(1000);
   Serial.println(data_received());
 }
+
 void setConnectiontype()
 {
     sim.write("AT+CIPMUX=0\r\n");
@@ -286,4 +288,3 @@ void blink_led(int a)
   digitalWrite(a,LOW);
   delay(100);
  }
-

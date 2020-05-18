@@ -1,4 +1,15 @@
 #include "i2c.h"
+
+
+void I2C_Initialize()
+{
+    SSP1STAT = 0x00;
+    SSP1CON1 = 0x08;
+    SSP1CON2 = 0x00;
+    SSP1ADD  = 0x09;
+    SSP1CON1bits.SSPEN = 1;
+}
+
 //For Waiting
 void I2C_Master_Wait()
 {
